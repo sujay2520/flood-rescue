@@ -6,6 +6,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Tests Passing](https://img.shields.io/badge/tests-39%2F39%20passed-brightgreen.svg)]()
 [![Hardware](https://img.shields.io/badge/GPU-0%20Required%20(CPU%20Edge)-orange.svg)]()
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online%20(GitHub%20Pages)-brightgreen?style=flat&logo=github)](https://sujay2520.github.io/flood-rescue/)
+
+🌐 **Live Interactive Web Showcase**: **[https://sujay2520.github.io/flood-rescue/](https://sujay2520.github.io/flood-rescue/)**
 
 ---
 
