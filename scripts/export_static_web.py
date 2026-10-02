@@ -107,6 +107,33 @@ def generate_static_web():
     # Copy manifest CSV into web directory for direct download
     manifest_df.to_csv(os.path.join(web_dir, "rescue_manifest.csv"), index=False)
     
+    total_trapped = int(manifest_df["Estimated_Population"].sum()) if not manifest_df.empty else 0
+    trapped_clusters_count = len(manifest_df)
+
+    rows_html = []
+    for _, row in manifest_df.iterrows():
+        tier = row["Priority_Tier"]
+        tier_badge = (
+            '<span class="px-2 py-0.5 rounded bg-rose-500/20 text-rose-400 border border-rose-500/30">HIGH</span>'
+            if tier == "HIGH"
+            else '<span class="px-2 py-0.5 rounded bg-amber-500/20 text-amber-400 border border-amber-500/30">MEDIUM</span>'
+            if tier == "MEDIUM"
+            else '<span class="px-2 py-0.5 rounded bg-sky-500/20 text-sky-400 border border-sky-500/30">LOW</span>'
+        )
+        action_text = f"{row['Recommended_Action']} (rule-based)"
+        rows_html.append(f"""
+                        <tr class="hover:bg-slate-800/40">
+                            <td class="py-3 px-4 font-bold text-white">#{int(row['Rank'])}</td>
+                            <td class="py-3 px-4 text-sky-400 font-bold">{row['Cluster_ID']}</td>
+                            <td class="py-3 px-4">{tier_badge}</td>
+                            <td class="py-3 px-4 text-white font-bold">{row['Priority_Score']:.1f}</td>
+                            <td class="py-3 px-4 text-amber-300 font-bold">{int(row['Estimated_Population']):,}</td>
+                            <td class="py-3 px-4">{row['Dist_to_Hub_km']:.2f} km</td>
+                            <td class="py-3 px-4 text-slate-400 font-sans">{row['Nearest_Hub']}</td>
+                            <td class="py-3 px-4 text-amber-400 font-sans font-semibold">{action_text}</td>
+                        </tr>""")
+    table_tbody_html = "\n".join(rows_html)
+
     # 3. Create high-performance, dark-themed index.html for Vercel
     html_content = f"""<!DOCTYPE html>
 <html lang="en">
@@ -167,8 +194,8 @@ def generate_static_web():
             </div>
             <div class="card p-4 rounded-xl border border-rose-500/20">
                 <div class="text-xs font-semibold text-rose-400 uppercase tracking-wider">Trapped Population</div>
-                <div class="text-2xl font-bold text-rose-300 mt-1">8,101</div>
-                <div class="text-xs text-slate-400 mt-1">Across 3 isolated clusters</div>
+                <div class="text-2xl font-bold text-rose-300 mt-1">{total_trapped:,}</div>
+                <div class="text-xs text-slate-400 mt-1">Across {trapped_clusters_count} isolated road junctions</div>
             </div>
             <div class="card p-4 rounded-xl border border-amber-500/20">
                 <div class="text-xs font-semibold text-amber-400 uppercase tracking-wider">Submerged Roads</div>
@@ -232,42 +259,14 @@ def generate_static_web():
                         </tr>
                     </thead>
                     <tbody class="divide-y divide-slate-800 font-mono">
-                        <tr class="hover:bg-slate-800/40">
-                            <td class="py-3 px-4 font-bold text-white">#1</td>
-                            <td class="py-3 px-4 text-sky-400 font-bold">Village_Cluster_02</td>
-                            <td class="py-3 px-4"><span class="px-2 py-0.5 rounded bg-rose-500/20 text-rose-400 border border-rose-500/30">HIGH</span></td>
-                            <td class="py-3 px-4 text-white font-bold">56.2</td>
-                            <td class="py-3 px-4 text-rose-300 font-bold">2,714</td>
-                            <td class="py-3 px-4">7.66 km</td>
-                            <td class="py-3 px-4 text-slate-400 font-sans">Relief_Hub_10056715748</td>
-                            <td class="py-3 px-4 text-rose-400 font-sans font-semibold">Boat evacuation (rule-based)</td>
-                        </tr>
-                        <tr class="hover:bg-slate-800/40">
-                            <td class="py-3 px-4 font-bold text-white">#2</td>
-                            <td class="py-3 px-4 text-sky-400 font-bold">Village_Cluster_01</td>
-                            <td class="py-3 px-4"><span class="px-2 py-0.5 rounded bg-amber-500/20 text-amber-400 border border-amber-500/30">MEDIUM</span></td>
-                            <td class="py-3 px-4 text-white font-bold">43.8</td>
-                            <td class="py-3 px-4 text-amber-300 font-bold">2,745</td>
-                            <td class="py-3 px-4">1.94 km</td>
-                            <td class="py-3 px-4 text-slate-400 font-sans">Relief_Hub_9777610665</td>
-                            <td class="py-3 px-4 text-amber-400 font-sans font-semibold">High-clearance vehicle / detour (rule-based)</td>
-                        </tr>
-                        <tr class="hover:bg-slate-800/40">
-                            <td class="py-3 px-4 font-bold text-white">#3</td>
-                            <td class="py-3 px-4 text-sky-400 font-bold">Village_Cluster_03</td>
-                            <td class="py-3 px-4"><span class="px-2 py-0.5 rounded bg-amber-500/20 text-amber-400 border border-amber-500/30">MEDIUM</span></td>
-                            <td class="py-3 px-4 text-white font-bold">27.6</td>
-                            <td class="py-3 px-4 text-amber-300 font-bold">2,642</td>
-                            <td class="py-3 px-4">4.92 km</td>
-                            <td class="py-3 px-4 text-slate-400 font-sans">Relief_Hub_12049443393</td>
-                            <td class="py-3 px-4 text-amber-400 font-sans font-semibold">High-clearance vehicle / detour (rule-based)</td>
-                        </tr>
+{table_tbody_html}
                     </tbody>
                 </table>
             </div>
             <div class="mt-3 pt-3 border-t border-slate-800/80 text-[11px] text-slate-400 space-y-1">
-                <div><strong>Spatial Population Note:</strong> Population counts (~2,700 each) reflect a 350m radius buffer around isolated single-node road intersections across the uniform rural population surface.</div>
-                <div><strong>Suggested Response Note:</strong> Actions are rule-based operational heuristics derived from priority tier and hub distance, not hydraulic bathymetry or verified water depth.</div>
+                <div><strong>Spatial Population Calibration:</strong> Trapped headcount (~80 people total, ~27 per junction) reflects count-conserved integration (95 people/km² rural density) over a 300m radius around severed single-node road intersections. (Corrects a 100× resampling inflation from unnormalized 10m pixel summation).</div>
+                <div><strong>Infrastructure Note:</strong> Targets represent isolated road junctions / terminal segments (1 cut-off road node each) rather than verified village polygons.</div>
+                <div><strong>Suggested Response Note:</strong> Actions are rule-based operational heuristics derived from priority tier and hospital distance, not hydraulic bathymetry or verified water depth.</div>
             </div>
         </div>
 

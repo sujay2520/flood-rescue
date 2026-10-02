@@ -277,7 +277,8 @@ def identify_cut_off_settlements(
 
     # 5. Calculate detailed metrics for each cluster
     for idx, raw_c in enumerate(raw_clusters):
-        cluster_id = f"Village_Cluster_{idx + 1:02d}"
+        n_nodes = int(raw_c["n_nodes"])
+        cluster_id = f"Isolated_Junction_{idx + 1:02d}" if n_nodes == 1 else f"Isolated_Cluster_{idx + 1:02d}"
         comp = raw_c["nodes"]
         c_lon = float(raw_c["lon"])
         c_lat = float(raw_c["lat"])

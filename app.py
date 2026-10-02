@@ -883,9 +883,9 @@ with col_m2:
     st.markdown(
         f"""
         <div class="metric-card" style="border-top: 4px solid #F59E0B;">
-            <div class="metric-title">Disconnected Communities</div>
+            <div class="metric-title">Isolated Road Junctions</div>
             <div class="metric-value" style="color:#F59E0B;">{num_disconnected_communities}</div>
-            <div class="metric-sub">🏘️ Isolated village clusters requiring aid</div>
+            <div class="metric-sub">📍 Cut-off road intersections (1 node each)</div>
         </div>
         """,
         unsafe_allow_html=True,
@@ -1300,8 +1300,9 @@ with tab_dispatch:
 
         st.caption(
             "ℹ️ **Operational Notes:** "
-            "1) **Suggested Response**: Rule-based operational heuristic derived from priority tier and hospital distance, not hydraulic bathymetry. "
-            "2) **Spatial Population**: Counts (~2,700 each) reflect a 350m radius buffer around isolated single-node road intersections across the uniform rural population surface."
+            "1) **Spatial Population**: Headcounts (~80 people total, ~27 per junction) reflect count-conserved integration (95 people/km² rural density) over a 300m radius around severed single-node road intersections (calibrated for 100× 10m grid resampling). "
+            "2) **Infrastructure**: Targets represent isolated single-node road dead-ends / junctions rather than mapped village polygons. "
+            "3) **Suggested Response**: Rule-based operational heuristic derived from priority tier and hospital distance, not hydraulic bathymetry."
         )
 
         # Download Buttons

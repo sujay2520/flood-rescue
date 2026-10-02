@@ -271,11 +271,11 @@
         ]
       },
       "properties": {
-        "cluster_id": "Village_Cluster_01",
+        "cluster_id": "Isolated_Junction_01",
         "rank": 1,
         "Rank": 1,
-        "estimated_population": 2744.8,
-        "population": 2744.8,
+        "estimated_population": 27.4,
+        "population": 27.4,
         "trapped_nodes": 1,
         "radius_m": 50.0,
         "dist_to_hub_km": 1.94,
@@ -557,11 +557,11 @@
         ]
       },
       "properties": {
-        "cluster_id": "Village_Cluster_02",
+        "cluster_id": "Isolated_Junction_02",
         "rank": 1,
         "Rank": 1,
-        "estimated_population": 2713.9,
-        "population": 2713.9,
+        "estimated_population": 27.1,
+        "population": 27.1,
         "trapped_nodes": 1,
         "radius_m": 50.0,
         "dist_to_hub_km": 7.66,
@@ -843,11 +843,11 @@
         ]
       },
       "properties": {
-        "cluster_id": "Village_Cluster_03",
+        "cluster_id": "Isolated_Junction_03",
         "rank": 1,
         "Rank": 1,
-        "estimated_population": 2641.9,
-        "population": 2641.9,
+        "estimated_population": 26.4,
+        "population": 26.4,
         "trapped_nodes": 1,
         "radius_m": 50.0,
         "dist_to_hub_km": 4.92,

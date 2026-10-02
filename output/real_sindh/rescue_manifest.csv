@@ -1,4 +1,4 @@
 Rank,Cluster_ID,Priority_Tier,Priority_Score,Estimated_Population,Trapped_Nodes,Dist_to_Hub_km,Nearest_Hub,Centroid_Lat,Centroid_Lon,Recommended_Action
-1,Village_Cluster_02,HIGH,56.2,2714,1,7.66,Relief_Hub_10056715748,26.685213,68.096008,Boat evacuation
-2,Village_Cluster_01,MEDIUM,43.8,2745,1,1.94,Relief_Hub_9777610665,26.809655,68.115229,Road detour possible / High-clearance vehicle rescue
-3,Village_Cluster_03,MEDIUM,27.6,2642,1,4.92,Relief_Hub_12049443393,26.712675,68.007291,Road detour possible / High-clearance vehicle rescue
+1,Isolated_Junction_02,MEDIUM,40.9,27,1,7.66,Relief_Hub_10056715748,26.685213,68.096008,Shallow-draft boat evacuation / monitoring
+2,Isolated_Junction_01,MEDIUM,30.0,27,1,1.94,Relief_Hub_9777610665,26.809655,68.115229,Road detour possible / High-clearance vehicle rescue
+3,Isolated_Junction_03,LOW,13.7,26,1,4.92,Relief_Hub_12049443393,26.712675,68.007291,Road detour possible / Monitor flood levels
