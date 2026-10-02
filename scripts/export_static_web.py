@@ -129,6 +129,14 @@ def generate_static_web():
     <!-- Main Content Container -->
     <main class="flex-1 max-w-7xl w-full mx-auto p-6 space-y-6">
 
+        <!-- Precomputed Mode Notice Banner -->
+        <div class="p-4 rounded-xl bg-sky-950/40 border border-sky-500/30 text-sky-200 text-xs flex items-center space-x-3">
+            <i class="fas fa-circle-info text-sky-400 text-base flex-shrink-0"></i>
+            <div>
+                <strong class="text-white">Precomputed Demonstration Mode:</strong> Serving verified results from a pipeline execution on the 2022 Dadu Sentinel-1 & OpenStreetMap data (10.77s end-to-end runtime). Full live pipeline executes locally with raw rasters.
+            </div>
+        </div>
+
         <!-- KPI Metrics Grid -->
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div class="card p-4 rounded-xl border border-sky-500/20">

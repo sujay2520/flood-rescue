@@ -1,5 +1,7 @@
 {
   "version": 2,
   "cleanUrls": true,
-  "outputDirectory": "web"
+  "outputDirectory": "web",
+  "framework": null,
+  "buildCommand": null
 }

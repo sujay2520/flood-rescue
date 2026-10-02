@@ -859,6 +859,11 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+if pipeline_result.get("is_precomputed_serving"):
+    st.info(
+        "ℹ️ **Precomputed Demonstration Mode**: Serving verified results from a pipeline execution on the 2022 Dadu Sentinel-1 & OpenStreetMap data (10.77s end-to-end runtime). Full live pipeline executes locally with raw rasters."
+    )
+
 # 4 Core Metrics Cards
 col_m1, col_m2, col_m3, col_m4 = st.columns(4)
 
