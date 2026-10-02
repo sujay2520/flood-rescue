@@ -132,8 +132,8 @@ Where it works and where it doesn't:
 
 [CENTER: SAME PIPELINE, TWO ZONES — Sentinel-1 RTC, September 2022 Flood Peak]
   • Eastern Indus Corridor (levee-protected) :  22.2 km² flooded (5.0% of AOI) | 4.4 km roads cut
-  • Western Johi / Manchar Breach Basin      : 143.9 km² flooded (32.0% of AOI) | Catastrophic breach
-  -> The detector tracks the physical footprint: levees held in the east; basin drowned in the west.
+  • Western Johi / Manchar Breach Basin      : 143.9 km² flooded (32.0% of AOI) | Breach inundation
+  -> Results are consistent with levee protection in the east and breach flooding in the west.
   -> Note: The western-basin extent is an empirical cross-check, not yet independently validated by ground-truth GIS.
 
 [RIGHT: OPERATIONAL LIMITATIONS & NEXT STEPS]

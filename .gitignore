@@ -34,6 +34,7 @@ models/*.onnx
 # Output raster caches (keep metadata, reports and geojsons)
 output/*/*.tif
 output/*.tif
+!output/real_sindh/flood_mask.tif
 !output/**/rescue_manifest.csv
 !output/**/rescue_manifest.geojson
 !output/**/roads_status.geojson
