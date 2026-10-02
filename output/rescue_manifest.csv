@@ -1,0 +1,12 @@
+Rank,Cluster_ID,Priority_Tier,Priority_Score,Estimated_Population,Trapped_Nodes,Dist_to_Hub_km,Nearest_Hub,Centroid_Lat,Centroid_Lon,Recommended_Action
+1,Village_Cluster_01,MEDIUM,45.2,16571,1,2.81,Relief_Hub_55,26.740556,67.789444,Road detour possible / High-clearance vehicle rescue
+2,Village_Cluster_08,MEDIUM,30.1,160,1,11.89,Relief_Hub_55,26.665,67.827222,Shallow-draft boat evacuation / monitoring
+3,Village_Cluster_05,MEDIUM,28.6,185,1,8.44,Relief_Hub_55,26.702778,67.827222,Shallow-draft boat evacuation / monitoring
+4,Village_Cluster_04,MEDIUM,26.3,214,1,7.32,Relief_Hub_55,26.702778,67.808333,Shallow-draft boat evacuation / monitoring
+5,Village_Cluster_02,LOW,21.1,1694,1,4.59,Relief_Hub_55,26.721667,67.789444,Road detour possible / Monitor flood levels
+6,Village_Cluster_09,LOW,19.3,157,1,7.02,Relief_Hub_55,26.721667,67.827222,Road detour possible / Monitor flood levels
+7,Village_Cluster_11,LOW,17.9,143,1,3.76,Relief_Hub_55,26.759444,67.808333,Road detour possible / Monitor flood levels
+8,Village_Cluster_06,LOW,17.1,169,1,6.01,Relief_Hub_65,26.797222,67.827222,Road detour possible / Monitor flood levels
+9,Village_Cluster_07,LOW,12.5,165,1,5.63,Relief_Hub_55,26.721667,67.808333,Road detour possible / Monitor flood levels
+10,Village_Cluster_03,LOW,10.0,227,1,4.3,Relief_Hub_55,26.740556,67.808333,Road detour possible / Monitor flood levels
+11,Village_Cluster_10,LOW,8.2,154,1,3.76,Relief_Hub_65,26.778333,67.808333,Road detour possible / Monitor flood levels

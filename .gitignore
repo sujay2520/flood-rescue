@@ -1,0 +1,45 @@
+# Python environment & cache
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Large binary rasters & satellite data (avoid 100MB+ git bloat)
+*.tif
+*.tiff
+data/ground_truth/
+data/real_dadu_2022/
+data/western_dadu_check/
+data/uploaded/
+data/demo_custom/
+cache/
+
+# Model checkpoints (large binary weights)
+models/*.pth
+models/*.pt
+models/*.onnx
+
+# Output raster caches (keep metadata, reports and geojsons)
+output/*/*.tif
+output/*.tif
+!output/**/rescue_manifest.csv
+!output/**/rescue_manifest.geojson
+!output/**/roads_status.geojson
+!output/**/isolated_settlements.geojson
+!output/**/validation_report.md
+!output/**/validation_report.json
+
+# Streamlit local state
+.streamlit/secrets.toml

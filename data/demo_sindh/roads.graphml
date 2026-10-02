@@ -1,0 +1,3396 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d9" for="edge" attr.name="name" attr.type="string" />
+  <key id="d8" for="edge" attr.name="oneway" attr.type="string" />
+  <key id="d7" for="edge" attr.name="bridge" attr.type="string" />
+  <key id="d6" for="edge" attr.name="length" attr.type="string" />
+  <key id="d5" for="edge" attr.name="highway" attr.type="string" />
+  <key id="d4" for="edge" attr.name="geometry" attr.type="string" />
+  <key id="d3" for="node" attr.name="osmid" attr.type="string" />
+  <key id="d2" for="node" attr.name="y" attr.type="string" />
+  <key id="d1" for="node" attr.name="x" attr.type="string" />
+  <key id="d0" for="graph" attr.name="crs" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="1">
+      <data key="d1">67.69500000000001</data>
+      <data key="d2">26.665</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="2">
+      <data key="d1">67.71388888888889</data>
+      <data key="d2">26.665</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="3">
+      <data key="d1">67.73277777777778</data>
+      <data key="d2">26.665</data>
+      <data key="d3">3</data>
+    </node>
+    <node id="4">
+      <data key="d1">67.75166666666667</data>
+      <data key="d2">26.665</data>
+      <data key="d3">4</data>
+    </node>
+    <node id="5">
+      <data key="d1">67.77055555555556</data>
+      <data key="d2">26.665</data>
+      <data key="d3">5</data>
+    </node>
+    <node id="6">
+      <data key="d1">67.78944444444444</data>
+      <data key="d2">26.665</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="7">
+      <data key="d1">67.80833333333334</data>
+      <data key="d2">26.665</data>
+      <data key="d3">7</data>
+    </node>
+    <node id="8">
+      <data key="d1">67.82722222222222</data>
+      <data key="d2">26.665</data>
+      <data key="d3">8</data>
+    </node>
+    <node id="9">
+      <data key="d1">67.84611111111111</data>
+      <data key="d2">26.665</data>
+      <data key="d3">9</data>
+    </node>
+    <node id="10">
+      <data key="d1">67.865</data>
+      <data key="d2">26.665</data>
+      <data key="d3">10</data>
+    </node>
+    <node id="11">
+      <data key="d1">67.69500000000001</data>
+      <data key="d2">26.683888888888887</data>
+      <data key="d3">11</data>
+    </node>
+    <node id="12">
+      <data key="d1">67.71388888888889</data>
+      <data key="d2">26.683888888888887</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="13">
+      <data key="d1">67.73277777777778</data>
+      <data key="d2">26.683888888888887</data>
+      <data key="d3">13</data>
+    </node>
+    <node id="14">
+      <data key="d1">67.75166666666667</data>
+      <data key="d2">26.683888888888887</data>
+      <data key="d3">14</data>
+    </node>
+    <node id="15">
+      <data key="d1">67.77055555555556</data>
+      <data key="d2">26.683888888888887</data>
+      <data key="d3">15</data>
+    </node>
+    <node id="16">
+      <data key="d1">67.78944444444444</data>
+      <data key="d2">26.683888888888887</data>
+      <data key="d3">16</data>
+    </node>
+    <node id="17">
+      <data key="d1">67.80833333333334</data>
+      <data key="d2">26.683888888888887</data>
+      <data key="d3">17</data>
+    </node>
+    <node id="18">
+      <data key="d1">67.82722222222222</data>
+      <data key="d2">26.683888888888887</data>
+      <data key="d3">18</data>
+    </node>
+    <node id="19">
+      <data key="d1">67.84611111111111</data>
+      <data key="d2">26.683888888888887</data>
+      <data key="d3">19</data>
+    </node>
+    <node id="20">
+      <data key="d1">67.865</data>
+      <data key="d2">26.683888888888887</data>
+      <data key="d3">20</data>
+    </node>
+    <node id="21">
+      <data key="d1">67.69500000000001</data>
+      <data key="d2">26.702777777777776</data>
+      <data key="d3">21</data>
+    </node>
+    <node id="22">
+      <data key="d1">67.71388888888889</data>
+      <data key="d2">26.702777777777776</data>
+      <data key="d3">22</data>
+    </node>
+    <node id="23">
+      <data key="d1">67.73277777777778</data>
+      <data key="d2">26.702777777777776</data>
+      <data key="d3">23</data>
+    </node>
+    <node id="24">
+      <data key="d1">67.75166666666667</data>
+      <data key="d2">26.702777777777776</data>
+      <data key="d3">24</data>
+    </node>
+    <node id="25">
+      <data key="d1">67.77055555555556</data>
+      <data key="d2">26.702777777777776</data>
+      <data key="d3">25</data>
+    </node>
+    <node id="26">
+      <data key="d1">67.78944444444444</data>
+      <data key="d2">26.702777777777776</data>
+      <data key="d3">26</data>
+    </node>
+    <node id="27">
+      <data key="d1">67.80833333333334</data>
+      <data key="d2">26.702777777777776</data>
+      <data key="d3">27</data>
+    </node>
+    <node id="28">
+      <data key="d1">67.82722222222222</data>
+      <data key="d2">26.702777777777776</data>
+      <data key="d3">28</data>
+    </node>
+    <node id="29">
+      <data key="d1">67.84611111111111</data>
+      <data key="d2">26.702777777777776</data>
+      <data key="d3">29</data>
+    </node>
+    <node id="30">
+      <data key="d1">67.865</data>
+      <data key="d2">26.702777777777776</data>
+      <data key="d3">30</data>
+    </node>
+    <node id="31">
+      <data key="d1">67.69500000000001</data>
+      <data key="d2">26.721666666666668</data>
+      <data key="d3">31</data>
+    </node>
+    <node id="32">
+      <data key="d1">67.71388888888889</data>
+      <data key="d2">26.721666666666668</data>
+      <data key="d3">32</data>
+    </node>
+    <node id="33">
+      <data key="d1">67.73277777777778</data>
+      <data key="d2">26.721666666666668</data>
+      <data key="d3">33</data>
+    </node>
+    <node id="34">
+      <data key="d1">67.75166666666667</data>
+      <data key="d2">26.721666666666668</data>
+      <data key="d3">34</data>
+    </node>
+    <node id="35">
+      <data key="d1">67.77055555555556</data>
+      <data key="d2">26.721666666666668</data>
+      <data key="d3">35</data>
+    </node>
+    <node id="36">
+      <data key="d1">67.78944444444444</data>
+      <data key="d2">26.721666666666668</data>
+      <data key="d3">36</data>
+    </node>
+    <node id="37">
+      <data key="d1">67.80833333333334</data>
+      <data key="d2">26.721666666666668</data>
+      <data key="d3">37</data>
+    </node>
+    <node id="38">
+      <data key="d1">67.82722222222222</data>
+      <data key="d2">26.721666666666668</data>
+      <data key="d3">38</data>
+    </node>
+    <node id="39">
+      <data key="d1">67.84611111111111</data>
+      <data key="d2">26.721666666666668</data>
+      <data key="d3">39</data>
+    </node>
+    <node id="40">
+      <data key="d1">67.865</data>
+      <data key="d2">26.721666666666668</data>
+      <data key="d3">40</data>
+    </node>
+    <node id="41">
+      <data key="d1">67.69500000000001</data>
+      <data key="d2">26.740555555555556</data>
+      <data key="d3">41</data>
+    </node>
+    <node id="42">
+      <data key="d1">67.71388888888889</data>
+      <data key="d2">26.740555555555556</data>
+      <data key="d3">42</data>
+    </node>
+    <node id="43">
+      <data key="d1">67.73277777777778</data>
+      <data key="d2">26.740555555555556</data>
+      <data key="d3">43</data>
+    </node>
+    <node id="44">
+      <data key="d1">67.75166666666667</data>
+      <data key="d2">26.740555555555556</data>
+      <data key="d3">44</data>
+    </node>
+    <node id="45">
+      <data key="d1">67.77055555555556</data>
+      <data key="d2">26.740555555555556</data>
+      <data key="d3">45</data>
+    </node>
+    <node id="46">
+      <data key="d1">67.78944444444444</data>
+      <data key="d2">26.740555555555556</data>
+      <data key="d3">46</data>
+    </node>
+    <node id="47">
+      <data key="d1">67.80833333333334</data>
+      <data key="d2">26.740555555555556</data>
+      <data key="d3">47</data>
+    </node>
+    <node id="48">
+      <data key="d1">67.82722222222222</data>
+      <data key="d2">26.740555555555556</data>
+      <data key="d3">48</data>
+    </node>
+    <node id="49">
+      <data key="d1">67.84611111111111</data>
+      <data key="d2">26.740555555555556</data>
+      <data key="d3">49</data>
+    </node>
+    <node id="50">
+      <data key="d1">67.865</data>
+      <data key="d2">26.740555555555556</data>
+      <data key="d3">50</data>
+    </node>
+    <node id="51">
+      <data key="d1">67.69500000000001</data>
+      <data key="d2">26.759444444444444</data>
+      <data key="d3">51</data>
+    </node>
+    <node id="52">
+      <data key="d1">67.71388888888889</data>
+      <data key="d2">26.759444444444444</data>
+      <data key="d3">52</data>
+    </node>
+    <node id="53">
+      <data key="d1">67.73277777777778</data>
+      <data key="d2">26.759444444444444</data>
+      <data key="d3">53</data>
+    </node>
+    <node id="54">
+      <data key="d1">67.75166666666667</data>
+      <data key="d2">26.759444444444444</data>
+      <data key="d3">54</data>
+    </node>
+    <node id="55">
+      <data key="d1">67.77055555555556</data>
+      <data key="d2">26.759444444444444</data>
+      <data key="d3">55</data>
+    </node>
+    <node id="56">
+      <data key="d1">67.78944444444444</data>
+      <data key="d2">26.759444444444444</data>
+      <data key="d3">56</data>
+    </node>
+    <node id="57">
+      <data key="d1">67.80833333333334</data>
+      <data key="d2">26.759444444444444</data>
+      <data key="d3">57</data>
+    </node>
+    <node id="58">
+      <data key="d1">67.82722222222222</data>
+      <data key="d2">26.759444444444444</data>
+      <data key="d3">58</data>
+    </node>
+    <node id="59">
+      <data key="d1">67.84611111111111</data>
+      <data key="d2">26.759444444444444</data>
+      <data key="d3">59</data>
+    </node>
+    <node id="60">
+      <data key="d1">67.865</data>
+      <data key="d2">26.759444444444444</data>
+      <data key="d3">60</data>
+    </node>
+    <node id="61">
+      <data key="d1">67.69500000000001</data>
+      <data key="d2">26.778333333333332</data>
+      <data key="d3">61</data>
+    </node>
+    <node id="62">
+      <data key="d1">67.71388888888889</data>
+      <data key="d2">26.778333333333332</data>
+      <data key="d3">62</data>
+    </node>
+    <node id="63">
+      <data key="d1">67.73277777777778</data>
+      <data key="d2">26.778333333333332</data>
+      <data key="d3">63</data>
+    </node>
+    <node id="64">
+      <data key="d1">67.75166666666667</data>
+      <data key="d2">26.778333333333332</data>
+      <data key="d3">64</data>
+    </node>
+    <node id="65">
+      <data key="d1">67.77055555555556</data>
+      <data key="d2">26.778333333333332</data>
+      <data key="d3">65</data>
+    </node>
+    <node id="66">
+      <data key="d1">67.78944444444444</data>
+      <data key="d2">26.778333333333332</data>
+      <data key="d3">66</data>
+    </node>
+    <node id="67">
+      <data key="d1">67.80833333333334</data>
+      <data key="d2">26.778333333333332</data>
+      <data key="d3">67</data>
+    </node>
+    <node id="68">
+      <data key="d1">67.82722222222222</data>
+      <data key="d2">26.778333333333332</data>
+      <data key="d3">68</data>
+    </node>
+    <node id="69">
+      <data key="d1">67.84611111111111</data>
+      <data key="d2">26.778333333333332</data>
+      <data key="d3">69</data>
+    </node>
+    <node id="70">
+      <data key="d1">67.865</data>
+      <data key="d2">26.778333333333332</data>
+      <data key="d3">70</data>
+    </node>
+    <node id="71">
+      <data key="d1">67.69500000000001</data>
+      <data key="d2">26.797222222222224</data>
+      <data key="d3">71</data>
+    </node>
+    <node id="72">
+      <data key="d1">67.71388888888889</data>
+      <data key="d2">26.797222222222224</data>
+      <data key="d3">72</data>
+    </node>
+    <node id="73">
+      <data key="d1">67.73277777777778</data>
+      <data key="d2">26.797222222222224</data>
+      <data key="d3">73</data>
+    </node>
+    <node id="74">
+      <data key="d1">67.75166666666667</data>
+      <data key="d2">26.797222222222224</data>
+      <data key="d3">74</data>
+    </node>
+    <node id="75">
+      <data key="d1">67.77055555555556</data>
+      <data key="d2">26.797222222222224</data>
+      <data key="d3">75</data>
+    </node>
+    <node id="76">
+      <data key="d1">67.78944444444444</data>
+      <data key="d2">26.797222222222224</data>
+      <data key="d3">76</data>
+    </node>
+    <node id="77">
+      <data key="d1">67.80833333333334</data>
+      <data key="d2">26.797222222222224</data>
+      <data key="d3">77</data>
+    </node>
+    <node id="78">
+      <data key="d1">67.82722222222222</data>
+      <data key="d2">26.797222222222224</data>
+      <data key="d3">78</data>
+    </node>
+    <node id="79">
+      <data key="d1">67.84611111111111</data>
+      <data key="d2">26.797222222222224</data>
+      <data key="d3">79</data>
+    </node>
+    <node id="80">
+      <data key="d1">67.865</data>
+      <data key="d2">26.797222222222224</data>
+      <data key="d3">80</data>
+    </node>
+    <node id="81">
+      <data key="d1">67.69500000000001</data>
+      <data key="d2">26.816111111111113</data>
+      <data key="d3">81</data>
+    </node>
+    <node id="82">
+      <data key="d1">67.71388888888889</data>
+      <data key="d2">26.816111111111113</data>
+      <data key="d3">82</data>
+    </node>
+    <node id="83">
+      <data key="d1">67.73277777777778</data>
+      <data key="d2">26.816111111111113</data>
+      <data key="d3">83</data>
+    </node>
+    <node id="84">
+      <data key="d1">67.75166666666667</data>
+      <data key="d2">26.816111111111113</data>
+      <data key="d3">84</data>
+    </node>
+    <node id="85">
+      <data key="d1">67.77055555555556</data>
+      <data key="d2">26.816111111111113</data>
+      <data key="d3">85</data>
+    </node>
+    <node id="86">
+      <data key="d1">67.78944444444444</data>
+      <data key="d2">26.816111111111113</data>
+      <data key="d3">86</data>
+    </node>
+    <node id="87">
+      <data key="d1">67.80833333333334</data>
+      <data key="d2">26.816111111111113</data>
+      <data key="d3">87</data>
+    </node>
+    <node id="88">
+      <data key="d1">67.82722222222222</data>
+      <data key="d2">26.816111111111113</data>
+      <data key="d3">88</data>
+    </node>
+    <node id="89">
+      <data key="d1">67.84611111111111</data>
+      <data key="d2">26.816111111111113</data>
+      <data key="d3">89</data>
+    </node>
+    <node id="90">
+      <data key="d1">67.865</data>
+      <data key="d2">26.816111111111113</data>
+      <data key="d3">90</data>
+    </node>
+    <node id="91">
+      <data key="d1">67.69500000000001</data>
+      <data key="d2">26.835</data>
+      <data key="d3">91</data>
+    </node>
+    <node id="92">
+      <data key="d1">67.71388888888889</data>
+      <data key="d2">26.835</data>
+      <data key="d3">92</data>
+    </node>
+    <node id="93">
+      <data key="d1">67.73277777777778</data>
+      <data key="d2">26.835</data>
+      <data key="d3">93</data>
+    </node>
+    <node id="94">
+      <data key="d1">67.75166666666667</data>
+      <data key="d2">26.835</data>
+      <data key="d3">94</data>
+    </node>
+    <node id="95">
+      <data key="d1">67.77055555555556</data>
+      <data key="d2">26.835</data>
+      <data key="d3">95</data>
+    </node>
+    <node id="96">
+      <data key="d1">67.78944444444444</data>
+      <data key="d2">26.835</data>
+      <data key="d3">96</data>
+    </node>
+    <node id="97">
+      <data key="d1">67.80833333333334</data>
+      <data key="d2">26.835</data>
+      <data key="d3">97</data>
+    </node>
+    <node id="98">
+      <data key="d1">67.82722222222222</data>
+      <data key="d2">26.835</data>
+      <data key="d3">98</data>
+    </node>
+    <node id="99">
+      <data key="d1">67.84611111111111</data>
+      <data key="d2">26.835</data>
+      <data key="d3">99</data>
+    </node>
+    <node id="100">
+      <data key="d1">67.865</data>
+      <data key="d2">26.835</data>
+      <data key="d3">100</data>
+    </node>
+    <edge source="1" target="2" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.665, 67.71388888888889 26.665)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 0-0</data>
+    </edge>
+    <edge source="1" target="11" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.665, 67.69500000000001 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 0-0</data>
+    </edge>
+    <edge source="2" target="1" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.665, 67.71388888888889 26.665)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 0-0</data>
+    </edge>
+    <edge source="2" target="3" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.665, 67.73277777777778 26.665)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 0-1</data>
+    </edge>
+    <edge source="2" target="12" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.665, 67.71388888888889 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 0-1</data>
+    </edge>
+    <edge source="3" target="2" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.665, 67.73277777777778 26.665)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 0-1</data>
+    </edge>
+    <edge source="3" target="4" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.665, 67.75166666666667 26.665)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 0-2</data>
+    </edge>
+    <edge source="3" target="13" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.665, 67.73277777777778 26.683888888888887)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 0-2</data>
+    </edge>
+    <edge source="4" target="3" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.665, 67.75166666666667 26.665)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 0-2</data>
+    </edge>
+    <edge source="4" target="5" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.665, 67.77055555555556 26.665)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 0-3</data>
+    </edge>
+    <edge source="4" target="14" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.665, 67.75166666666667 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 0-3</data>
+    </edge>
+    <edge source="5" target="4" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.665, 67.77055555555556 26.665)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 0-3</data>
+    </edge>
+    <edge source="5" target="6" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.665, 67.78944444444444 26.665)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 0-4</data>
+    </edge>
+    <edge source="5" target="15" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.665, 67.77055555555556 26.683888888888887)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 0-4</data>
+    </edge>
+    <edge source="6" target="5" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.665, 67.78944444444444 26.665)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 0-4</data>
+    </edge>
+    <edge source="6" target="7" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.665, 67.80833333333334 26.665)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 0-5</data>
+    </edge>
+    <edge source="6" target="16" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.665, 67.78944444444444 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 0-5</data>
+    </edge>
+    <edge source="7" target="6" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.665, 67.80833333333334 26.665)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 0-5</data>
+    </edge>
+    <edge source="7" target="8" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.665, 67.82722222222222 26.665)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 0-6</data>
+    </edge>
+    <edge source="7" target="17" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.665, 67.80833333333334 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 0-6</data>
+    </edge>
+    <edge source="8" target="7" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.665, 67.82722222222222 26.665)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 0-6</data>
+    </edge>
+    <edge source="8" target="9" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.665, 67.84611111111111 26.665)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 0-7</data>
+    </edge>
+    <edge source="8" target="18" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.665, 67.82722222222222 26.683888888888887)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 0-7</data>
+    </edge>
+    <edge source="9" target="8" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.665, 67.84611111111111 26.665)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 0-7</data>
+    </edge>
+    <edge source="9" target="10" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.665, 67.865 26.665)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 0-8</data>
+    </edge>
+    <edge source="9" target="19" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.665, 67.84611111111111 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 0-8</data>
+    </edge>
+    <edge source="10" target="9" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.665, 67.865 26.665)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 0-8</data>
+    </edge>
+    <edge source="10" target="20" id="0">
+      <data key="d4">LINESTRING (67.865 26.665, 67.865 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 0-9</data>
+    </edge>
+    <edge source="11" target="1" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.665, 67.69500000000001 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 0-0</data>
+    </edge>
+    <edge source="11" target="12" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.683888888888887, 67.71388888888889 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 1-0</data>
+    </edge>
+    <edge source="11" target="21" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.683888888888887, 67.69500000000001 26.702777777777776)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 1-0</data>
+    </edge>
+    <edge source="12" target="2" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.665, 67.71388888888889 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 0-1</data>
+    </edge>
+    <edge source="12" target="11" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.683888888888887, 67.71388888888889 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 1-0</data>
+    </edge>
+    <edge source="12" target="13" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.683888888888887, 67.73277777777778 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 1-1</data>
+    </edge>
+    <edge source="12" target="22" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.683888888888887, 67.71388888888889 26.702777777777776)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 1-1</data>
+    </edge>
+    <edge source="13" target="3" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.665, 67.73277777777778 26.683888888888887)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 0-2</data>
+    </edge>
+    <edge source="13" target="12" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.683888888888887, 67.73277777777778 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 1-1</data>
+    </edge>
+    <edge source="13" target="14" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.683888888888887, 67.75166666666667 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 1-2</data>
+    </edge>
+    <edge source="13" target="23" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.683888888888887, 67.73277777777778 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 1-2</data>
+    </edge>
+    <edge source="14" target="4" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.665, 67.75166666666667 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 0-3</data>
+    </edge>
+    <edge source="14" target="13" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.683888888888887, 67.75166666666667 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 1-2</data>
+    </edge>
+    <edge source="14" target="15" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.683888888888887, 67.77055555555556 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 1-3</data>
+    </edge>
+    <edge source="14" target="24" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.683888888888887, 67.75166666666667 26.702777777777776)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 1-3</data>
+    </edge>
+    <edge source="15" target="5" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.665, 67.77055555555556 26.683888888888887)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 0-4</data>
+    </edge>
+    <edge source="15" target="14" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.683888888888887, 67.77055555555556 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 1-3</data>
+    </edge>
+    <edge source="15" target="16" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.683888888888887, 67.78944444444444 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 1-4</data>
+    </edge>
+    <edge source="15" target="25" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.683888888888887, 67.77055555555556 26.702777777777776)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 1-4</data>
+    </edge>
+    <edge source="16" target="6" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.665, 67.78944444444444 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 0-5</data>
+    </edge>
+    <edge source="16" target="15" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.683888888888887, 67.78944444444444 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 1-4</data>
+    </edge>
+    <edge source="16" target="17" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.683888888888887, 67.80833333333334 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 1-5</data>
+    </edge>
+    <edge source="16" target="26" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.683888888888887, 67.78944444444444 26.702777777777776)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 1-5</data>
+    </edge>
+    <edge source="17" target="7" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.665, 67.80833333333334 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 0-6</data>
+    </edge>
+    <edge source="17" target="16" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.683888888888887, 67.80833333333334 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 1-5</data>
+    </edge>
+    <edge source="17" target="18" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.683888888888887, 67.82722222222222 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 1-6</data>
+    </edge>
+    <edge source="17" target="27" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.683888888888887, 67.80833333333334 26.702777777777776)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 1-6</data>
+    </edge>
+    <edge source="18" target="8" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.665, 67.82722222222222 26.683888888888887)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 0-7</data>
+    </edge>
+    <edge source="18" target="17" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.683888888888887, 67.82722222222222 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 1-6</data>
+    </edge>
+    <edge source="18" target="19" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.683888888888887, 67.84611111111111 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 1-7</data>
+    </edge>
+    <edge source="18" target="28" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.683888888888887, 67.82722222222222 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 1-7</data>
+    </edge>
+    <edge source="19" target="9" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.665, 67.84611111111111 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 0-8</data>
+    </edge>
+    <edge source="19" target="18" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.683888888888887, 67.84611111111111 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 1-7</data>
+    </edge>
+    <edge source="19" target="20" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.683888888888887, 67.865 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 1-8</data>
+    </edge>
+    <edge source="19" target="29" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.683888888888887, 67.84611111111111 26.702777777777776)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 1-8</data>
+    </edge>
+    <edge source="20" target="10" id="0">
+      <data key="d4">LINESTRING (67.865 26.665, 67.865 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 0-9</data>
+    </edge>
+    <edge source="20" target="19" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.683888888888887, 67.865 26.683888888888887)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 1-8</data>
+    </edge>
+    <edge source="20" target="30" id="0">
+      <data key="d4">LINESTRING (67.865 26.683888888888887, 67.865 26.702777777777776)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 1-9</data>
+    </edge>
+    <edge source="21" target="11" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.683888888888887, 67.69500000000001 26.702777777777776)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 1-0</data>
+    </edge>
+    <edge source="21" target="22" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.702777777777776, 67.71388888888889 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 2-0</data>
+    </edge>
+    <edge source="21" target="31" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.702777777777776, 67.69500000000001 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 2-0</data>
+    </edge>
+    <edge source="22" target="12" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.683888888888887, 67.71388888888889 26.702777777777776)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 1-1</data>
+    </edge>
+    <edge source="22" target="21" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.702777777777776, 67.71388888888889 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 2-0</data>
+    </edge>
+    <edge source="22" target="23" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.702777777777776, 67.73277777777778 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 2-1</data>
+    </edge>
+    <edge source="22" target="32" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.702777777777776, 67.71388888888889 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 2-1</data>
+    </edge>
+    <edge source="23" target="13" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.683888888888887, 67.73277777777778 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 1-2</data>
+    </edge>
+    <edge source="23" target="22" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.702777777777776, 67.73277777777778 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 2-1</data>
+    </edge>
+    <edge source="23" target="24" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.702777777777776, 67.75166666666667 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 2-2</data>
+    </edge>
+    <edge source="23" target="33" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.702777777777776, 67.73277777777778 26.721666666666668)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 2-2</data>
+    </edge>
+    <edge source="24" target="14" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.683888888888887, 67.75166666666667 26.702777777777776)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 1-3</data>
+    </edge>
+    <edge source="24" target="23" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.702777777777776, 67.75166666666667 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 2-2</data>
+    </edge>
+    <edge source="24" target="25" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.702777777777776, 67.77055555555556 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 2-3</data>
+    </edge>
+    <edge source="24" target="34" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.702777777777776, 67.75166666666667 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 2-3</data>
+    </edge>
+    <edge source="25" target="15" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.683888888888887, 67.77055555555556 26.702777777777776)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 1-4</data>
+    </edge>
+    <edge source="25" target="24" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.702777777777776, 67.77055555555556 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 2-3</data>
+    </edge>
+    <edge source="25" target="26" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.702777777777776, 67.78944444444444 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 2-4</data>
+    </edge>
+    <edge source="25" target="35" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.702777777777776, 67.77055555555556 26.721666666666668)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 2-4</data>
+    </edge>
+    <edge source="26" target="16" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.683888888888887, 67.78944444444444 26.702777777777776)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 1-5</data>
+    </edge>
+    <edge source="26" target="25" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.702777777777776, 67.78944444444444 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 2-4</data>
+    </edge>
+    <edge source="26" target="27" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.702777777777776, 67.80833333333334 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 2-5</data>
+    </edge>
+    <edge source="26" target="36" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.702777777777776, 67.78944444444444 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 2-5</data>
+    </edge>
+    <edge source="27" target="17" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.683888888888887, 67.80833333333334 26.702777777777776)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 1-6</data>
+    </edge>
+    <edge source="27" target="26" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.702777777777776, 67.80833333333334 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 2-5</data>
+    </edge>
+    <edge source="27" target="28" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.702777777777776, 67.82722222222222 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">yes</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 2-6</data>
+    </edge>
+    <edge source="27" target="37" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.702777777777776, 67.80833333333334 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 2-6</data>
+    </edge>
+    <edge source="28" target="18" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.683888888888887, 67.82722222222222 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 1-7</data>
+    </edge>
+    <edge source="28" target="27" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.702777777777776, 67.82722222222222 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">yes</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 2-6</data>
+    </edge>
+    <edge source="28" target="29" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.702777777777776, 67.84611111111111 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">yes</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 2-7</data>
+    </edge>
+    <edge source="28" target="38" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.702777777777776, 67.82722222222222 26.721666666666668)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 2-7</data>
+    </edge>
+    <edge source="29" target="19" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.683888888888887, 67.84611111111111 26.702777777777776)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 1-8</data>
+    </edge>
+    <edge source="29" target="28" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.702777777777776, 67.84611111111111 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">yes</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 2-7</data>
+    </edge>
+    <edge source="29" target="30" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.702777777777776, 67.865 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 2-8</data>
+    </edge>
+    <edge source="29" target="39" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.702777777777776, 67.84611111111111 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 2-8</data>
+    </edge>
+    <edge source="30" target="20" id="0">
+      <data key="d4">LINESTRING (67.865 26.683888888888887, 67.865 26.702777777777776)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 1-9</data>
+    </edge>
+    <edge source="30" target="29" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.702777777777776, 67.865 26.702777777777776)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 2-8</data>
+    </edge>
+    <edge source="30" target="40" id="0">
+      <data key="d4">LINESTRING (67.865 26.702777777777776, 67.865 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 2-9</data>
+    </edge>
+    <edge source="31" target="21" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.702777777777776, 67.69500000000001 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 2-0</data>
+    </edge>
+    <edge source="31" target="32" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.721666666666668, 67.71388888888889 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 3-0</data>
+    </edge>
+    <edge source="31" target="41" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.721666666666668, 67.69500000000001 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 3-0</data>
+    </edge>
+    <edge source="32" target="22" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.702777777777776, 67.71388888888889 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 2-1</data>
+    </edge>
+    <edge source="32" target="31" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.721666666666668, 67.71388888888889 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 3-0</data>
+    </edge>
+    <edge source="32" target="33" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.721666666666668, 67.73277777777778 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 3-1</data>
+    </edge>
+    <edge source="32" target="42" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.721666666666668, 67.71388888888889 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 3-1</data>
+    </edge>
+    <edge source="33" target="23" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.702777777777776, 67.73277777777778 26.721666666666668)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 2-2</data>
+    </edge>
+    <edge source="33" target="32" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.721666666666668, 67.73277777777778 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 3-1</data>
+    </edge>
+    <edge source="33" target="34" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.721666666666668, 67.75166666666667 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 3-2</data>
+    </edge>
+    <edge source="33" target="43" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.721666666666668, 67.73277777777778 26.740555555555556)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 3-2</data>
+    </edge>
+    <edge source="34" target="24" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.702777777777776, 67.75166666666667 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 2-3</data>
+    </edge>
+    <edge source="34" target="33" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.721666666666668, 67.75166666666667 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 3-2</data>
+    </edge>
+    <edge source="34" target="35" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.721666666666668, 67.77055555555556 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 3-3</data>
+    </edge>
+    <edge source="34" target="44" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.721666666666668, 67.75166666666667 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 3-3</data>
+    </edge>
+    <edge source="35" target="25" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.702777777777776, 67.77055555555556 26.721666666666668)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 2-4</data>
+    </edge>
+    <edge source="35" target="34" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.721666666666668, 67.77055555555556 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 3-3</data>
+    </edge>
+    <edge source="35" target="36" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.721666666666668, 67.78944444444444 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 3-4</data>
+    </edge>
+    <edge source="35" target="45" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.721666666666668, 67.77055555555556 26.740555555555556)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 3-4</data>
+    </edge>
+    <edge source="36" target="26" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.702777777777776, 67.78944444444444 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 2-5</data>
+    </edge>
+    <edge source="36" target="35" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.721666666666668, 67.78944444444444 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 3-4</data>
+    </edge>
+    <edge source="36" target="37" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.721666666666668, 67.80833333333334 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 3-5</data>
+    </edge>
+    <edge source="36" target="46" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.721666666666668, 67.78944444444444 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 3-5</data>
+    </edge>
+    <edge source="37" target="27" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.702777777777776, 67.80833333333334 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 2-6</data>
+    </edge>
+    <edge source="37" target="36" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.721666666666668, 67.80833333333334 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 3-5</data>
+    </edge>
+    <edge source="37" target="38" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.721666666666668, 67.82722222222222 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 3-6</data>
+    </edge>
+    <edge source="37" target="47" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.721666666666668, 67.80833333333334 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 3-6</data>
+    </edge>
+    <edge source="38" target="28" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.702777777777776, 67.82722222222222 26.721666666666668)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 2-7</data>
+    </edge>
+    <edge source="38" target="37" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.721666666666668, 67.82722222222222 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 3-6</data>
+    </edge>
+    <edge source="38" target="39" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.721666666666668, 67.84611111111111 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 3-7</data>
+    </edge>
+    <edge source="38" target="48" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.721666666666668, 67.82722222222222 26.740555555555556)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 3-7</data>
+    </edge>
+    <edge source="39" target="29" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.702777777777776, 67.84611111111111 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 2-8</data>
+    </edge>
+    <edge source="39" target="38" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.721666666666668, 67.84611111111111 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 3-7</data>
+    </edge>
+    <edge source="39" target="40" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.721666666666668, 67.865 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 3-8</data>
+    </edge>
+    <edge source="39" target="49" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.721666666666668, 67.84611111111111 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 3-8</data>
+    </edge>
+    <edge source="40" target="30" id="0">
+      <data key="d4">LINESTRING (67.865 26.702777777777776, 67.865 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 2-9</data>
+    </edge>
+    <edge source="40" target="39" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.721666666666668, 67.865 26.721666666666668)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 3-8</data>
+    </edge>
+    <edge source="40" target="50" id="0">
+      <data key="d4">LINESTRING (67.865 26.721666666666668, 67.865 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 3-9</data>
+    </edge>
+    <edge source="41" target="31" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.721666666666668, 67.69500000000001 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 3-0</data>
+    </edge>
+    <edge source="41" target="42" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.740555555555556, 67.71388888888889 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 4-0</data>
+    </edge>
+    <edge source="41" target="51" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.740555555555556, 67.69500000000001 26.759444444444444)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 4-0</data>
+    </edge>
+    <edge source="42" target="32" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.721666666666668, 67.71388888888889 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 3-1</data>
+    </edge>
+    <edge source="42" target="41" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.740555555555556, 67.71388888888889 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 4-0</data>
+    </edge>
+    <edge source="42" target="43" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.740555555555556, 67.73277777777778 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 4-1</data>
+    </edge>
+    <edge source="42" target="52" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.740555555555556, 67.71388888888889 26.759444444444444)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 4-1</data>
+    </edge>
+    <edge source="43" target="33" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.721666666666668, 67.73277777777778 26.740555555555556)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 3-2</data>
+    </edge>
+    <edge source="43" target="42" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.740555555555556, 67.73277777777778 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 4-1</data>
+    </edge>
+    <edge source="43" target="44" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.740555555555556, 67.75166666666667 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 4-2</data>
+    </edge>
+    <edge source="43" target="53" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.740555555555556, 67.73277777777778 26.759444444444444)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 4-2</data>
+    </edge>
+    <edge source="44" target="34" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.721666666666668, 67.75166666666667 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 3-3</data>
+    </edge>
+    <edge source="44" target="43" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.740555555555556, 67.75166666666667 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 4-2</data>
+    </edge>
+    <edge source="44" target="45" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.740555555555556, 67.77055555555556 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 4-3</data>
+    </edge>
+    <edge source="44" target="54" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.740555555555556, 67.75166666666667 26.759444444444444)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 4-3</data>
+    </edge>
+    <edge source="45" target="35" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.721666666666668, 67.77055555555556 26.740555555555556)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 3-4</data>
+    </edge>
+    <edge source="45" target="44" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.740555555555556, 67.77055555555556 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 4-3</data>
+    </edge>
+    <edge source="45" target="46" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.740555555555556, 67.78944444444444 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 4-4</data>
+    </edge>
+    <edge source="45" target="55" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.740555555555556, 67.77055555555556 26.759444444444444)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 4-4</data>
+    </edge>
+    <edge source="46" target="36" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.721666666666668, 67.78944444444444 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 3-5</data>
+    </edge>
+    <edge source="46" target="45" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.740555555555556, 67.78944444444444 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 4-4</data>
+    </edge>
+    <edge source="46" target="47" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.740555555555556, 67.80833333333334 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 4-5</data>
+    </edge>
+    <edge source="46" target="56" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.740555555555556, 67.78944444444444 26.759444444444444)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 4-5</data>
+    </edge>
+    <edge source="47" target="37" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.721666666666668, 67.80833333333334 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 3-6</data>
+    </edge>
+    <edge source="47" target="46" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.740555555555556, 67.80833333333334 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 4-5</data>
+    </edge>
+    <edge source="47" target="48" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.740555555555556, 67.82722222222222 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 4-6</data>
+    </edge>
+    <edge source="47" target="57" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.740555555555556, 67.80833333333334 26.759444444444444)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 4-6</data>
+    </edge>
+    <edge source="48" target="38" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.721666666666668, 67.82722222222222 26.740555555555556)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 3-7</data>
+    </edge>
+    <edge source="48" target="47" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.740555555555556, 67.82722222222222 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 4-6</data>
+    </edge>
+    <edge source="48" target="49" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.740555555555556, 67.84611111111111 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 4-7</data>
+    </edge>
+    <edge source="48" target="58" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.740555555555556, 67.82722222222222 26.759444444444444)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 4-7</data>
+    </edge>
+    <edge source="49" target="39" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.721666666666668, 67.84611111111111 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 3-8</data>
+    </edge>
+    <edge source="49" target="48" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.740555555555556, 67.84611111111111 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 4-7</data>
+    </edge>
+    <edge source="49" target="50" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.740555555555556, 67.865 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 4-8</data>
+    </edge>
+    <edge source="49" target="59" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.740555555555556, 67.84611111111111 26.759444444444444)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 4-8</data>
+    </edge>
+    <edge source="50" target="40" id="0">
+      <data key="d4">LINESTRING (67.865 26.721666666666668, 67.865 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 3-9</data>
+    </edge>
+    <edge source="50" target="49" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.740555555555556, 67.865 26.740555555555556)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 4-8</data>
+    </edge>
+    <edge source="50" target="60" id="0">
+      <data key="d4">LINESTRING (67.865 26.740555555555556, 67.865 26.759444444444444)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 4-9</data>
+    </edge>
+    <edge source="51" target="41" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.740555555555556, 67.69500000000001 26.759444444444444)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 4-0</data>
+    </edge>
+    <edge source="51" target="52" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.759444444444444, 67.71388888888889 26.759444444444444)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 5-0</data>
+    </edge>
+    <edge source="51" target="61" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.759444444444444, 67.69500000000001 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 5-0</data>
+    </edge>
+    <edge source="52" target="42" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.740555555555556, 67.71388888888889 26.759444444444444)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 4-1</data>
+    </edge>
+    <edge source="52" target="51" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.759444444444444, 67.71388888888889 26.759444444444444)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 5-0</data>
+    </edge>
+    <edge source="52" target="53" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.759444444444444, 67.73277777777778 26.759444444444444)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 5-1</data>
+    </edge>
+    <edge source="52" target="62" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.759444444444444, 67.71388888888889 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 5-1</data>
+    </edge>
+    <edge source="53" target="43" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.740555555555556, 67.73277777777778 26.759444444444444)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 4-2</data>
+    </edge>
+    <edge source="53" target="52" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.759444444444444, 67.73277777777778 26.759444444444444)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 5-1</data>
+    </edge>
+    <edge source="53" target="54" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.759444444444444, 67.75166666666667 26.759444444444444)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 5-2</data>
+    </edge>
+    <edge source="53" target="63" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.759444444444444, 67.73277777777778 26.778333333333332)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 5-2</data>
+    </edge>
+    <edge source="54" target="44" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.740555555555556, 67.75166666666667 26.759444444444444)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 4-3</data>
+    </edge>
+    <edge source="54" target="53" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.759444444444444, 67.75166666666667 26.759444444444444)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 5-2</data>
+    </edge>
+    <edge source="54" target="55" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.759444444444444, 67.77055555555556 26.759444444444444)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 5-3</data>
+    </edge>
+    <edge source="54" target="64" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.759444444444444, 67.75166666666667 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 5-3</data>
+    </edge>
+    <edge source="55" target="45" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.740555555555556, 67.77055555555556 26.759444444444444)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 4-4</data>
+    </edge>
+    <edge source="55" target="54" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.759444444444444, 67.77055555555556 26.759444444444444)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 5-3</data>
+    </edge>
+    <edge source="55" target="56" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.759444444444444, 67.78944444444444 26.759444444444444)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 5-4</data>
+    </edge>
+    <edge source="55" target="65" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.759444444444444, 67.77055555555556 26.778333333333332)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 5-4</data>
+    </edge>
+    <edge source="56" target="46" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.740555555555556, 67.78944444444444 26.759444444444444)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 4-5</data>
+    </edge>
+    <edge source="56" target="55" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.759444444444444, 67.78944444444444 26.759444444444444)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 5-4</data>
+    </edge>
+    <edge source="56" target="57" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.759444444444444, 67.80833333333334 26.759444444444444)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 5-5</data>
+    </edge>
+    <edge source="56" target="66" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.759444444444444, 67.78944444444444 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 5-5</data>
+    </edge>
+    <edge source="57" target="47" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.740555555555556, 67.80833333333334 26.759444444444444)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 4-6</data>
+    </edge>
+    <edge source="57" target="56" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.759444444444444, 67.80833333333334 26.759444444444444)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 5-5</data>
+    </edge>
+    <edge source="57" target="58" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.759444444444444, 67.82722222222222 26.759444444444444)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">yes</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 5-6</data>
+    </edge>
+    <edge source="57" target="67" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.759444444444444, 67.80833333333334 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 5-6</data>
+    </edge>
+    <edge source="58" target="48" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.740555555555556, 67.82722222222222 26.759444444444444)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 4-7</data>
+    </edge>
+    <edge source="58" target="57" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.759444444444444, 67.82722222222222 26.759444444444444)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">yes</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 5-6</data>
+    </edge>
+    <edge source="58" target="59" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.759444444444444, 67.84611111111111 26.759444444444444)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">yes</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 5-7</data>
+    </edge>
+    <edge source="58" target="68" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.759444444444444, 67.82722222222222 26.778333333333332)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 5-7</data>
+    </edge>
+    <edge source="59" target="49" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.740555555555556, 67.84611111111111 26.759444444444444)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 4-8</data>
+    </edge>
+    <edge source="59" target="58" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.759444444444444, 67.84611111111111 26.759444444444444)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">yes</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 5-7</data>
+    </edge>
+    <edge source="59" target="60" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.759444444444444, 67.865 26.759444444444444)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 5-8</data>
+    </edge>
+    <edge source="59" target="69" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.759444444444444, 67.84611111111111 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 5-8</data>
+    </edge>
+    <edge source="60" target="50" id="0">
+      <data key="d4">LINESTRING (67.865 26.740555555555556, 67.865 26.759444444444444)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 4-9</data>
+    </edge>
+    <edge source="60" target="59" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.759444444444444, 67.865 26.759444444444444)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 5-8</data>
+    </edge>
+    <edge source="60" target="70" id="0">
+      <data key="d4">LINESTRING (67.865 26.759444444444444, 67.865 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 5-9</data>
+    </edge>
+    <edge source="61" target="51" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.759444444444444, 67.69500000000001 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 5-0</data>
+    </edge>
+    <edge source="61" target="62" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.778333333333332, 67.71388888888889 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 6-0</data>
+    </edge>
+    <edge source="61" target="71" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.778333333333332, 67.69500000000001 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 6-0</data>
+    </edge>
+    <edge source="62" target="52" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.759444444444444, 67.71388888888889 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 5-1</data>
+    </edge>
+    <edge source="62" target="61" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.778333333333332, 67.71388888888889 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 6-0</data>
+    </edge>
+    <edge source="62" target="63" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.778333333333332, 67.73277777777778 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 6-1</data>
+    </edge>
+    <edge source="62" target="72" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.778333333333332, 67.71388888888889 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 6-1</data>
+    </edge>
+    <edge source="63" target="53" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.759444444444444, 67.73277777777778 26.778333333333332)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 5-2</data>
+    </edge>
+    <edge source="63" target="62" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.778333333333332, 67.73277777777778 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 6-1</data>
+    </edge>
+    <edge source="63" target="64" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.778333333333332, 67.75166666666667 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 6-2</data>
+    </edge>
+    <edge source="63" target="73" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.778333333333332, 67.73277777777778 26.797222222222224)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 6-2</data>
+    </edge>
+    <edge source="64" target="54" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.759444444444444, 67.75166666666667 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 5-3</data>
+    </edge>
+    <edge source="64" target="63" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.778333333333332, 67.75166666666667 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 6-2</data>
+    </edge>
+    <edge source="64" target="65" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.778333333333332, 67.77055555555556 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 6-3</data>
+    </edge>
+    <edge source="64" target="74" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.778333333333332, 67.75166666666667 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 6-3</data>
+    </edge>
+    <edge source="65" target="55" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.759444444444444, 67.77055555555556 26.778333333333332)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 5-4</data>
+    </edge>
+    <edge source="65" target="64" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.778333333333332, 67.77055555555556 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 6-3</data>
+    </edge>
+    <edge source="65" target="66" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.778333333333332, 67.78944444444444 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 6-4</data>
+    </edge>
+    <edge source="65" target="75" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.778333333333332, 67.77055555555556 26.797222222222224)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 6-4</data>
+    </edge>
+    <edge source="66" target="56" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.759444444444444, 67.78944444444444 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 5-5</data>
+    </edge>
+    <edge source="66" target="65" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.778333333333332, 67.78944444444444 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 6-4</data>
+    </edge>
+    <edge source="66" target="67" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.778333333333332, 67.80833333333334 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 6-5</data>
+    </edge>
+    <edge source="66" target="76" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.778333333333332, 67.78944444444444 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 6-5</data>
+    </edge>
+    <edge source="67" target="57" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.759444444444444, 67.80833333333334 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 5-6</data>
+    </edge>
+    <edge source="67" target="66" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.778333333333332, 67.80833333333334 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 6-5</data>
+    </edge>
+    <edge source="67" target="68" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.778333333333332, 67.82722222222222 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 6-6</data>
+    </edge>
+    <edge source="67" target="77" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.778333333333332, 67.80833333333334 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 6-6</data>
+    </edge>
+    <edge source="68" target="58" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.759444444444444, 67.82722222222222 26.778333333333332)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 5-7</data>
+    </edge>
+    <edge source="68" target="67" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.778333333333332, 67.82722222222222 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 6-6</data>
+    </edge>
+    <edge source="68" target="69" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.778333333333332, 67.84611111111111 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 6-7</data>
+    </edge>
+    <edge source="68" target="78" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.778333333333332, 67.82722222222222 26.797222222222224)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 6-7</data>
+    </edge>
+    <edge source="69" target="59" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.759444444444444, 67.84611111111111 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 5-8</data>
+    </edge>
+    <edge source="69" target="68" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.778333333333332, 67.84611111111111 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 6-7</data>
+    </edge>
+    <edge source="69" target="70" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.778333333333332, 67.865 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 6-8</data>
+    </edge>
+    <edge source="69" target="79" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.778333333333332, 67.84611111111111 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 6-8</data>
+    </edge>
+    <edge source="70" target="60" id="0">
+      <data key="d4">LINESTRING (67.865 26.759444444444444, 67.865 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 5-9</data>
+    </edge>
+    <edge source="70" target="69" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.778333333333332, 67.865 26.778333333333332)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 6-8</data>
+    </edge>
+    <edge source="70" target="80" id="0">
+      <data key="d4">LINESTRING (67.865 26.778333333333332, 67.865 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 6-9</data>
+    </edge>
+    <edge source="71" target="61" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.778333333333332, 67.69500000000001 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 6-0</data>
+    </edge>
+    <edge source="71" target="72" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.797222222222224, 67.71388888888889 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 7-0</data>
+    </edge>
+    <edge source="71" target="81" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.797222222222224, 67.69500000000001 26.816111111111113)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 7-0</data>
+    </edge>
+    <edge source="72" target="62" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.778333333333332, 67.71388888888889 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 6-1</data>
+    </edge>
+    <edge source="72" target="71" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.797222222222224, 67.71388888888889 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 7-0</data>
+    </edge>
+    <edge source="72" target="73" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.797222222222224, 67.73277777777778 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 7-1</data>
+    </edge>
+    <edge source="72" target="82" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.797222222222224, 67.71388888888889 26.816111111111113)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 7-1</data>
+    </edge>
+    <edge source="73" target="63" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.778333333333332, 67.73277777777778 26.797222222222224)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 6-2</data>
+    </edge>
+    <edge source="73" target="72" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.797222222222224, 67.73277777777778 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 7-1</data>
+    </edge>
+    <edge source="73" target="74" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.797222222222224, 67.75166666666667 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 7-2</data>
+    </edge>
+    <edge source="73" target="83" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.797222222222224, 67.73277777777778 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 7-2</data>
+    </edge>
+    <edge source="74" target="64" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.778333333333332, 67.75166666666667 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 6-3</data>
+    </edge>
+    <edge source="74" target="73" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.797222222222224, 67.75166666666667 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 7-2</data>
+    </edge>
+    <edge source="74" target="75" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.797222222222224, 67.77055555555556 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 7-3</data>
+    </edge>
+    <edge source="74" target="84" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.797222222222224, 67.75166666666667 26.816111111111113)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 7-3</data>
+    </edge>
+    <edge source="75" target="65" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.778333333333332, 67.77055555555556 26.797222222222224)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 6-4</data>
+    </edge>
+    <edge source="75" target="74" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.797222222222224, 67.77055555555556 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 7-3</data>
+    </edge>
+    <edge source="75" target="76" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.797222222222224, 67.78944444444444 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 7-4</data>
+    </edge>
+    <edge source="75" target="85" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.797222222222224, 67.77055555555556 26.816111111111113)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 7-4</data>
+    </edge>
+    <edge source="76" target="66" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.778333333333332, 67.78944444444444 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 6-5</data>
+    </edge>
+    <edge source="76" target="75" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.797222222222224, 67.78944444444444 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 7-4</data>
+    </edge>
+    <edge source="76" target="77" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.797222222222224, 67.80833333333334 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 7-5</data>
+    </edge>
+    <edge source="76" target="86" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.797222222222224, 67.78944444444444 26.816111111111113)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 7-5</data>
+    </edge>
+    <edge source="77" target="67" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.778333333333332, 67.80833333333334 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 6-6</data>
+    </edge>
+    <edge source="77" target="76" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.797222222222224, 67.80833333333334 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 7-5</data>
+    </edge>
+    <edge source="77" target="78" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.797222222222224, 67.82722222222222 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 7-6</data>
+    </edge>
+    <edge source="77" target="87" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.797222222222224, 67.80833333333334 26.816111111111113)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 7-6</data>
+    </edge>
+    <edge source="78" target="68" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.778333333333332, 67.82722222222222 26.797222222222224)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 6-7</data>
+    </edge>
+    <edge source="78" target="77" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.797222222222224, 67.82722222222222 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 7-6</data>
+    </edge>
+    <edge source="78" target="79" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.797222222222224, 67.84611111111111 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 7-7</data>
+    </edge>
+    <edge source="78" target="88" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.797222222222224, 67.82722222222222 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 7-7</data>
+    </edge>
+    <edge source="79" target="69" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.778333333333332, 67.84611111111111 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 6-8</data>
+    </edge>
+    <edge source="79" target="78" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.797222222222224, 67.84611111111111 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 7-7</data>
+    </edge>
+    <edge source="79" target="80" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.797222222222224, 67.865 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 7-8</data>
+    </edge>
+    <edge source="79" target="89" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.797222222222224, 67.84611111111111 26.816111111111113)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 7-8</data>
+    </edge>
+    <edge source="80" target="70" id="0">
+      <data key="d4">LINESTRING (67.865 26.778333333333332, 67.865 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.29222222255</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 6-9</data>
+    </edge>
+    <edge source="80" target="79" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.797222222222224, 67.865 26.797222222222224)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 7-8</data>
+    </edge>
+    <edge source="80" target="90" id="0">
+      <data key="d4">LINESTRING (67.865 26.797222222222224, 67.865 26.816111111111113)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 7-9</data>
+    </edge>
+    <edge source="81" target="71" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.797222222222224, 67.69500000000001 26.816111111111113)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 7-0</data>
+    </edge>
+    <edge source="81" target="82" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.816111111111113, 67.71388888888889 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 8-0</data>
+    </edge>
+    <edge source="81" target="91" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.816111111111113, 67.69500000000001 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 8-0</data>
+    </edge>
+    <edge source="82" target="72" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.797222222222224, 67.71388888888889 26.816111111111113)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 7-1</data>
+    </edge>
+    <edge source="82" target="81" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.816111111111113, 67.71388888888889 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 8-0</data>
+    </edge>
+    <edge source="82" target="83" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.816111111111113, 67.73277777777778 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 8-1</data>
+    </edge>
+    <edge source="82" target="92" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.816111111111113, 67.71388888888889 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 8-1</data>
+    </edge>
+    <edge source="83" target="73" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.797222222222224, 67.73277777777778 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 7-2</data>
+    </edge>
+    <edge source="83" target="82" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.816111111111113, 67.73277777777778 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 8-1</data>
+    </edge>
+    <edge source="83" target="84" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.816111111111113, 67.75166666666667 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 8-2</data>
+    </edge>
+    <edge source="83" target="93" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.816111111111113, 67.73277777777778 26.835)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 8-2</data>
+    </edge>
+    <edge source="84" target="74" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.797222222222224, 67.75166666666667 26.816111111111113)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 7-3</data>
+    </edge>
+    <edge source="84" target="83" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.816111111111113, 67.75166666666667 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 8-2</data>
+    </edge>
+    <edge source="84" target="85" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.816111111111113, 67.77055555555556 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 8-3</data>
+    </edge>
+    <edge source="84" target="94" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.816111111111113, 67.75166666666667 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 8-3</data>
+    </edge>
+    <edge source="85" target="75" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.797222222222224, 67.77055555555556 26.816111111111113)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 7-4</data>
+    </edge>
+    <edge source="85" target="84" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.816111111111113, 67.77055555555556 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 8-3</data>
+    </edge>
+    <edge source="85" target="86" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.816111111111113, 67.78944444444444 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 8-4</data>
+    </edge>
+    <edge source="85" target="95" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.816111111111113, 67.77055555555556 26.835)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 8-4</data>
+    </edge>
+    <edge source="86" target="76" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.797222222222224, 67.78944444444444 26.816111111111113)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 7-5</data>
+    </edge>
+    <edge source="86" target="85" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.816111111111113, 67.78944444444444 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 8-4</data>
+    </edge>
+    <edge source="86" target="87" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.816111111111113, 67.80833333333334 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 8-5</data>
+    </edge>
+    <edge source="86" target="96" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.816111111111113, 67.78944444444444 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 8-5</data>
+    </edge>
+    <edge source="87" target="77" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.797222222222224, 67.80833333333334 26.816111111111113)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 7-6</data>
+    </edge>
+    <edge source="87" target="86" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.816111111111113, 67.80833333333334 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 8-5</data>
+    </edge>
+    <edge source="87" target="88" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.816111111111113, 67.82722222222222 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">yes</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 8-6</data>
+    </edge>
+    <edge source="87" target="97" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.816111111111113, 67.80833333333334 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 8-6</data>
+    </edge>
+    <edge source="88" target="78" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.797222222222224, 67.82722222222222 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 7-7</data>
+    </edge>
+    <edge source="88" target="87" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.816111111111113, 67.82722222222222 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">yes</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 8-6</data>
+    </edge>
+    <edge source="88" target="89" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.816111111111113, 67.84611111111111 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">yes</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 8-7</data>
+    </edge>
+    <edge source="88" target="98" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.816111111111113, 67.82722222222222 26.835)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 8-7</data>
+    </edge>
+    <edge source="89" target="79" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.797222222222224, 67.84611111111111 26.816111111111113)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 7-8</data>
+    </edge>
+    <edge source="89" target="88" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.816111111111113, 67.84611111111111 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">yes</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 8-7</data>
+    </edge>
+    <edge source="89" target="90" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.816111111111113, 67.865 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 8-8</data>
+    </edge>
+    <edge source="89" target="99" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.816111111111113, 67.84611111111111 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 8-8</data>
+    </edge>
+    <edge source="90" target="80" id="0">
+      <data key="d4">LINESTRING (67.865 26.797222222222224, 67.865 26.816111111111113)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 7-9</data>
+    </edge>
+    <edge source="90" target="89" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.816111111111113, 67.865 26.816111111111113)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 8-8</data>
+    </edge>
+    <edge source="90" target="100" id="0">
+      <data key="d4">LINESTRING (67.865 26.816111111111113, 67.865 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 8-9</data>
+    </edge>
+    <edge source="91" target="81" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.816111111111113, 67.69500000000001 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 8-0</data>
+    </edge>
+    <edge source="91" target="92" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.835, 67.71388888888889 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 9-0</data>
+    </edge>
+    <edge source="92" target="82" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.816111111111113, 67.71388888888889 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 8-1</data>
+    </edge>
+    <edge source="92" target="91" id="0">
+      <data key="d4">LINESTRING (67.69500000000001 26.835, 67.71388888888889 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 9-0</data>
+    </edge>
+    <edge source="92" target="93" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.835, 67.73277777777778 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 9-1</data>
+    </edge>
+    <edge source="93" target="83" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.816111111111113, 67.73277777777778 26.835)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 8-2</data>
+    </edge>
+    <edge source="93" target="92" id="0">
+      <data key="d4">LINESTRING (67.71388888888889 26.835, 67.73277777777778 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 9-1</data>
+    </edge>
+    <edge source="93" target="94" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.835, 67.75166666666667 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 9-2</data>
+    </edge>
+    <edge source="94" target="84" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.816111111111113, 67.75166666666667 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 8-3</data>
+    </edge>
+    <edge source="94" target="93" id="0">
+      <data key="d4">LINESTRING (67.73277777777778 26.835, 67.75166666666667 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 9-2</data>
+    </edge>
+    <edge source="94" target="95" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.835, 67.77055555555556 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 9-3</data>
+    </edge>
+    <edge source="95" target="85" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.816111111111113, 67.77055555555556 26.835)</data>
+      <data key="d5">primary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 8-4</data>
+    </edge>
+    <edge source="95" target="94" id="0">
+      <data key="d4">LINESTRING (67.75166666666667 26.835, 67.77055555555556 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 9-3</data>
+    </edge>
+    <edge source="95" target="96" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.835, 67.78944444444444 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 9-4</data>
+    </edge>
+    <edge source="96" target="86" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.816111111111113, 67.78944444444444 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 8-5</data>
+    </edge>
+    <edge source="96" target="95" id="0">
+      <data key="d4">LINESTRING (67.77055555555556 26.835, 67.78944444444444 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 9-4</data>
+    </edge>
+    <edge source="96" target="97" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.835, 67.80833333333334 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 9-5</data>
+    </edge>
+    <edge source="97" target="87" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.816111111111113, 67.80833333333334 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 8-6</data>
+    </edge>
+    <edge source="97" target="96" id="0">
+      <data key="d4">LINESTRING (67.78944444444444 26.835, 67.80833333333334 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 9-5</data>
+    </edge>
+    <edge source="97" target="98" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.835, 67.82722222222222 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 9-6</data>
+    </edge>
+    <edge source="98" target="88" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.816111111111113, 67.82722222222222 26.835)</data>
+      <data key="d5">secondary</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 8-7</data>
+    </edge>
+    <edge source="98" target="97" id="0">
+      <data key="d4">LINESTRING (67.80833333333334 26.835, 67.82722222222222 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 9-6</data>
+    </edge>
+    <edge source="98" target="99" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.835, 67.84611111111111 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 9-7</data>
+    </edge>
+    <edge source="99" target="89" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.816111111111113, 67.84611111111111 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 8-8</data>
+    </edge>
+    <edge source="99" target="98" id="0">
+      <data key="d4">LINESTRING (67.82722222222222 26.835, 67.84611111111111 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222229454</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 9-7</data>
+    </edge>
+    <edge source="99" target="100" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.835, 67.865 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 9-8</data>
+    </edge>
+    <edge source="100" target="90" id="0">
+      <data key="d4">LINESTRING (67.865 26.816111111111113, 67.865 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.2922222221555</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Corridor 8-9</data>
+    </edge>
+    <edge source="100" target="99" id="0">
+      <data key="d4">LINESTRING (67.84611111111111 26.835, 67.865 26.835)</data>
+      <data key="d5">residential</data>
+      <data key="d6">2099.292222221366</data>
+      <data key="d7">no</data>
+      <data key="d8">False</data>
+      <data key="d9">Road 9-8</data>
+    </edge>
+    <data key="d0">EPSG:4326</data>
+  </graph>
+</graphml>

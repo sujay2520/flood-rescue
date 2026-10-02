@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.77055555555556,
+          26.759444444444444
+        ]
+      },
+      "properties": {
+        "name": "DHQ Civil Hospital & Trauma Center Dadu",
+        "node_id": 55,
+        "amenity": "hospital",
+        "beds": 250
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.75166666666667,
+          26.759444444444444
+        ]
+      },
+      "properties": {
+        "name": "Pakistan Red Crescent Disaster Relief HQ",
+        "node_id": 54,
+        "amenity": "emergency_center",
+        "beds": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.77055555555556,
+          26.778333333333332
+        ]
+      },
+      "properties": {
+        "name": "Rescue 1122 Sindh Central Station",
+        "node_id": 65,
+        "amenity": "fire_station",
+        "beds": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.73277777777778,
+          26.797222222222224
+        ]
+      },
+      "properties": {
+        "name": "Rural Health Center Makhdoom Bilawal",
+        "node_id": 73,
+        "amenity": "clinic",
+        "beds": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.80833333333334,
+          26.702777777777776
+        ]
+      },
+      "properties": {
+        "name": "Basic Health Unit Pir Goth Medical Post",
+        "node_id": 27,
+        "amenity": "clinic",
+        "beds": 20
+      }
+    }
+  ]
+}

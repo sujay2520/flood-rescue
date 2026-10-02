@@ -1,0 +1,228 @@
+{
+  "sen1floods11": {
+    "overall": {
+      "total_chips_evaluated": 11,
+      "total_pixels": 1970187,
+      "tp": 143430,
+      "fp": 365174,
+      "fn": 132912,
+      "tn": 1328671,
+      "overall_iou": 0.2236,
+      "overall_f1": 0.3655,
+      "overall_precision": 0.282,
+      "overall_recall": 0.519,
+      "overall_accuracy": 0.7472,
+      "overall_kappa": 0.2245,
+      "calibrated_water_db": -17.0
+    },
+    "chips": [
+      {
+        "chip_id": "Pakistan_1027214",
+        "metrics": {
+          "tp": 18603,
+          "fp": 20074,
+          "fn": 5267,
+          "tn": 115014,
+          "total_pixels": 158958,
+          "iou": 0.4233,
+          "f1_score": 0.5948,
+          "precision": 0.481,
+          "recall": 0.7793,
+          "specificity": 0.8514,
+          "accuracy": 0.8406,
+          "cohen_kappa": 0.5024
+        }
+      },
+      {
+        "chip_id": "Pakistan_210595",
+        "metrics": {
+          "tp": 0,
+          "fp": 90961,
+          "fn": 0,
+          "tn": 171183,
+          "total_pixels": 262144,
+          "iou": 0.0,
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "specificity": 0.653,
+          "accuracy": 0.653,
+          "cohen_kappa": 0.0
+        }
+      },
+      {
+        "chip_id": "Pakistan_336228",
+        "metrics": {
+          "tp": 0,
+          "fp": 16589,
+          "fn": 0,
+          "tn": 115882,
+          "total_pixels": 132471,
+          "iou": 0.0,
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "specificity": 0.8748,
+          "accuracy": 0.8748,
+          "cohen_kappa": 0.0
+        }
+      },
+      {
+        "chip_id": "Pakistan_43105",
+        "metrics": {
+          "tp": 42,
+          "fp": 75190,
+          "fn": 229,
+          "tn": 186214,
+          "total_pixels": 261675,
+          "iou": 0.0006,
+          "f1_score": 0.0011,
+          "precision": 0.0006,
+          "recall": 0.155,
+          "specificity": 0.7124,
+          "accuracy": 0.7118,
+          "cohen_kappa": -0.001
+        }
+      },
+      {
+        "chip_id": "Pakistan_528249",
+        "metrics": {
+          "tp": 0,
+          "fp": 7544,
+          "fn": 0,
+          "tn": 69438,
+          "total_pixels": 76982,
+          "iou": 0.0,
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "specificity": 0.902,
+          "accuracy": 0.902,
+          "cohen_kappa": 0.0
+        }
+      },
+      {
+        "chip_id": "Pakistan_664885",
+        "metrics": {
+          "tp": 2233,
+          "fp": 14189,
+          "fn": 150,
+          "tn": 56438,
+          "total_pixels": 73010,
+          "iou": 0.1347,
+          "f1_score": 0.2375,
+          "precision": 0.136,
+          "recall": 0.9371,
+          "specificity": 0.7991,
+          "accuracy": 0.8036,
+          "cohen_kappa": 0.1914
+        }
+      },
+      {
+        "chip_id": "Pakistan_694942",
+        "metrics": {
+          "tp": 17301,
+          "fp": 44312,
+          "fn": 1180,
+          "tn": 128651,
+          "total_pixels": 191444,
+          "iou": 0.2755,
+          "f1_score": 0.432,
+          "precision": 0.2808,
+          "recall": 0.9362,
+          "specificity": 0.7438,
+          "accuracy": 0.7624,
+          "cohen_kappa": 0.3329
+        }
+      },
+      {
+        "chip_id": "Pakistan_70625",
+        "metrics": {
+          "tp": 3464,
+          "fp": 61420,
+          "fn": 1203,
+          "tn": 196057,
+          "total_pixels": 262144,
+          "iou": 0.0524,
+          "f1_score": 0.0996,
+          "precision": 0.0534,
+          "recall": 0.7422,
+          "specificity": 0.7615,
+          "accuracy": 0.7611,
+          "cohen_kappa": 0.0687
+        }
+      },
+      {
+        "chip_id": "Pakistan_849790",
+        "metrics": {
+          "tp": 58158,
+          "fp": 7100,
+          "fn": 113750,
+          "tn": 78231,
+          "total_pixels": 257239,
+          "iou": 0.3249,
+          "f1_score": 0.4904,
+          "precision": 0.8912,
+          "recall": 0.3383,
+          "specificity": 0.9168,
+          "accuracy": 0.5302,
+          "cohen_kappa": 0.194
+        }
+      },
+      {
+        "chip_id": "Pakistan_94095",
+        "metrics": {
+          "tp": 42638,
+          "fp": 21335,
+          "fn": 10928,
+          "tn": 105669,
+          "total_pixels": 180570,
+          "iou": 0.5693,
+          "f1_score": 0.7255,
+          "precision": 0.6665,
+          "recall": 0.796,
+          "specificity": 0.832,
+          "accuracy": 0.8213,
+          "cohen_kappa": 0.5946
+        }
+      },
+      {
+        "chip_id": "Pakistan_9684",
+        "metrics": {
+          "tp": 991,
+          "fp": 6460,
+          "fn": 205,
+          "tn": 105894,
+          "total_pixels": 113550,
+          "iou": 0.1294,
+          "f1_score": 0.2292,
+          "precision": 0.133,
+          "recall": 0.8286,
+          "specificity": 0.9425,
+          "accuracy": 0.9413,
+          "cohen_kappa": 0.215
+        }
+      }
+    ]
+  },
+  "copernicus": {
+    "status": "success",
+    "metrics": {
+      "tp": 10304,
+      "fp": 419886,
+      "fn": 93437,
+      "tn": 1967834,
+      "total_pixels": 2491461,
+      "iou": 0.0197,
+      "f1_score": 0.0386,
+      "precision": 0.024,
+      "recall": 0.0993,
+      "specificity": 0.8241,
+      "accuracy": 0.794,
+      "cohen_kappa": -0.0305
+    },
+    "confusion_path": "output/validation\\copernicus_confusion_map.tif",
+    "copernicus_flood_km2": 10.37,
+    "ai_flood_km2": 43.02
+  }
+}

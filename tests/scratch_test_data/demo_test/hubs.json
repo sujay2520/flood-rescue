@@ -1,0 +1,42 @@
+[
+  {
+    "name": "DHQ Civil Hospital & Trauma Center Dadu",
+    "node_id": 55,
+    "lon": 67.77055555555556,
+    "lat": 26.759444444444444,
+    "type": "hospital",
+    "beds": 250
+  },
+  {
+    "name": "Pakistan Red Crescent Disaster Relief HQ",
+    "node_id": 54,
+    "lon": 67.75166666666667,
+    "lat": 26.759444444444444,
+    "type": "emergency_center",
+    "beds": 100
+  },
+  {
+    "name": "Rescue 1122 Sindh Central Station",
+    "node_id": 65,
+    "lon": 67.77055555555556,
+    "lat": 26.778333333333332,
+    "type": "fire_station",
+    "beds": 30
+  },
+  {
+    "name": "Rural Health Center Makhdoom Bilawal",
+    "node_id": 73,
+    "lon": 67.73277777777778,
+    "lat": 26.797222222222224,
+    "type": "clinic",
+    "beds": 25
+  },
+  {
+    "name": "Basic Health Unit Pir Goth Medical Post",
+    "node_id": 27,
+    "lon": 67.80833333333334,
+    "lat": 26.702777777777776,
+    "type": "clinic",
+    "beds": 20
+  }
+]

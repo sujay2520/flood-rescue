@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.015, 26.665]
+      },
+      "properties": {
+        "id": "hub_01",
+        "name": "Moro Taluka Headquarter Hospital & Trauma Center",
+        "amenity": "hospital",
+        "beds": 120,
+        "type": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.142, 26.815]
+      },
+      "properties": {
+        "id": "hub_02",
+        "name": "Naushahro Feroze Civil Hospital & Emergency Relief HQ",
+        "amenity": "hospital",
+        "beds": 200,
+        "type": "Hospital"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.085, 26.745]
+      },
+      "properties": {
+        "id": "hub_03",
+        "name": "Rural Health Center New Jatoi Medical Post",
+        "amenity": "clinic",
+        "beds": 35,
+        "type": "Clinic"
+      }
+    }
+  ]
+}
