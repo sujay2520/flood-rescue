@@ -28,6 +28,27 @@ def generate_static_web():
         control_scale=True,
     )
     
+    # Add Flood Inundation Extent Layer (Cyan semi-transparent polygons)
+    flood_extent_path = "output/real_sindh/flood_extent.geojson"
+    if os.path.exists(flood_extent_path):
+        with open(flood_extent_path, "r", encoding="utf-8") as f:
+            flood_fc = json.load(f)
+        folium.GeoJson(
+            flood_fc,
+            name="🌊 Sentinel-1 Inundation Extent (22.2 km² SAR Detection)",
+            style_function=lambda x: {
+                "fillColor": "#38BDF8",
+                "color": "#0284C7",
+                "weight": 1.2,
+                "fillOpacity": 0.55,
+            },
+            tooltip=folium.GeoJsonTooltip(
+                fields=["name", "source"],
+                aliases=["Layer:", "Sensor:"],
+                localize=True
+            )
+        ).add_to(m)
+
     # Add Roads layer
     def road_style(feat):
         status = feat["properties"].get("status", "passable")
@@ -116,7 +137,7 @@ def generate_static_web():
             </div>
             <div class="flex items-center space-x-3 text-xs">
                 <span class="inline-flex items-center px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-                    <span class="w-2 h-2 rounded-full bg-emerald-400 mr-2 animate-pulse"></span> SYSTEM VERIFIED
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 mr-2 animate-pulse"></span> PIPELINE OUTPUT (PRECOMPUTED DEMO)
                 </span>
                 <a href="https://github.com/sujay2520/flood-rescue" target="_blank" class="px-3 py-1.5 rounded-lg card text-slate-300 hover:text-white border border-slate-700 flex items-center space-x-1 transition">
                     <i class="fab fa-github"></i>
@@ -207,7 +228,7 @@ def generate_static_web():
                             <th class="py-3 px-4">Trapped Pop</th>
                             <th class="py-3 px-4">Hospital Distance</th>
                             <th class="py-3 px-4">Nearest Facility</th>
-                            <th class="py-3 px-4">Recommended Action</th>
+                            <th class="py-3 px-4">Suggested Response (Rule-Based Heuristic)</th>
                         </tr>
                     </thead>
                     <tbody class="divide-y divide-slate-800 font-mono">
@@ -219,7 +240,7 @@ def generate_static_web():
                             <td class="py-3 px-4 text-rose-300 font-bold">2,714</td>
                             <td class="py-3 px-4">7.66 km</td>
                             <td class="py-3 px-4 text-slate-400 font-sans">Relief_Hub_10056715748</td>
-                            <td class="py-3 px-4 text-rose-400 font-sans font-semibold">Boat evacuation</td>
+                            <td class="py-3 px-4 text-rose-400 font-sans font-semibold">Boat evacuation (rule-based)</td>
                         </tr>
                         <tr class="hover:bg-slate-800/40">
                             <td class="py-3 px-4 font-bold text-white">#2</td>
@@ -229,7 +250,7 @@ def generate_static_web():
                             <td class="py-3 px-4 text-amber-300 font-bold">2,745</td>
                             <td class="py-3 px-4">1.94 km</td>
                             <td class="py-3 px-4 text-slate-400 font-sans">Relief_Hub_9777610665</td>
-                            <td class="py-3 px-4 text-amber-400 font-sans font-semibold">High-clearance vehicle / detour</td>
+                            <td class="py-3 px-4 text-amber-400 font-sans font-semibold">High-clearance vehicle / detour (rule-based)</td>
                         </tr>
                         <tr class="hover:bg-slate-800/40">
                             <td class="py-3 px-4 font-bold text-white">#3</td>
@@ -239,10 +260,14 @@ def generate_static_web():
                             <td class="py-3 px-4 text-amber-300 font-bold">2,642</td>
                             <td class="py-3 px-4">4.92 km</td>
                             <td class="py-3 px-4 text-slate-400 font-sans">Relief_Hub_12049443393</td>
-                            <td class="py-3 px-4 text-amber-400 font-sans font-semibold">High-clearance vehicle / detour</td>
+                            <td class="py-3 px-4 text-amber-400 font-sans font-semibold">High-clearance vehicle / detour (rule-based)</td>
                         </tr>
                     </tbody>
                 </table>
+            </div>
+            <div class="mt-3 pt-3 border-t border-slate-800/80 text-[11px] text-slate-400 space-y-1">
+                <div><strong>Spatial Population Note:</strong> Population counts (~2,700 each) reflect a 350m radius buffer around isolated single-node road intersections across the uniform rural population surface.</div>
+                <div><strong>Suggested Response Note:</strong> Actions are rule-based operational heuristics derived from priority tier and hub distance, not hydraulic bathymetry or verified water depth.</div>
             </div>
         </div>
 

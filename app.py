@@ -727,18 +727,18 @@ with st.sidebar:
         "Water Backscatter Threshold (dB)",
         min_value=-25.0,
         max_value=-12.0,
-        value=-18.0,
+        value=-17.0,
         step=0.5,
-        help="Pixels darker than this in the post-flood SAR image are evaluated as specular open water.",
+        help="Pixels darker than this in the post-flood SAR image are evaluated as specular open water. Calibrated to -17.0 dB for Dadu.",
     )
 
     drop_db = st.slider(
         "Minimum Backscatter Drop (dB)",
         min_value=1.0,
         max_value=8.0,
-        value=3.0,
+        value=2.5,
         step=0.5,
-        help="Pixel must experience at least this temporal drop to be classified as NEW flood, removing permanent rivers.",
+        help="Pixel must experience at least this temporal drop to be classified as NEW flood, removing permanent rivers. Calibrated to 2.5 dB for Dadu.",
     )
 
     road_submersion_pct = st.slider(
@@ -935,34 +935,65 @@ tab_map, tab_dispatch, tab_sar, tab_method, tab_benchmark = st.tabs([
 # TAB 1: Interactive Operations Map (Folium)
 # ============================================================================
 with tab_map:
-    # Compute center for folium map
-    west, south, east, north = bbox
-    center_lat = (south + north) / 2.0
-    center_lon = (west + east) / 2.0
+    # Reproject bbox to WGS84 if coordinates are in projected meters (e.g. UTM)
+    from pyproj import Transformer
+    raw_west, raw_south, raw_east, raw_north = bbox
+    crs_code = pipeline_result.get("crs", "EPSG:32642")
+    if raw_north > 90.0 or raw_south > 90.0 or raw_west > 180.0 or raw_east > 180.0:
+        try:
+            transformer = Transformer.from_crs(crs_code, "EPSG:4326", always_xy=True)
+            wgs_west, wgs_south = transformer.transform(raw_west, raw_south)
+            wgs_east, wgs_north = transformer.transform(raw_east, raw_north)
+        except Exception:
+            wgs_west, wgs_south, wgs_east, wgs_north = 67.9785, 26.6496, 68.1818, 26.8521
+    else:
+        wgs_west, wgs_south, wgs_east, wgs_north = raw_west, raw_south, raw_east, raw_north
 
-    # Base folium map with dark tactical carto basemap
+    center_lat = (wgs_south + wgs_north) / 2.0
+    center_lon = (wgs_west + wgs_east) / 2.0
+
+    # Base folium map with standard OpenStreetMap tiles
     m = folium.Map(
         location=[center_lat, center_lon],
         zoom_start=11,
-        tiles="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
-        attr="&copy; OpenStreetMap contributors &copy; CARTO",
+        tiles="OpenStreetMap",
         control_scale=True,
         prefer_canvas=True,
     )
 
-    # Layer 1: Flood Inundation Extent (Cyan/Blue transparent overlay)
+    # Layer 1: Flood Inundation Extent (Cyan vector polygons or transparent overlay)
     fg_flood = folium.FeatureGroup(name="🌊 Flood Inundation Extent", show=True)
-    # Generate RGBA image overlay for the flood mask
-    mask_h, mask_w = flood_mask.shape
-    flood_rgba = np.zeros((mask_h, mask_w, 4), dtype=np.uint8)
-    flood_rgba[flood_mask] = [0, 210, 255, 170]  # Vivid cyan with 65% opacity
-    folium.raster_layers.ImageOverlay(
-        image=flood_rgba,
-        bounds=[[south, west], [north, east]],
-        opacity=0.75,
-        name="Flood Inundation Extent",
-        interactive=False,
-    ).add_to(fg_flood)
+    flood_geojson_path = "output/real_sindh/flood_extent.geojson"
+    if os.path.exists(flood_geojson_path) and ("Real Satellite" in event_choice or "2022 Flood Peak" in event_choice):
+        with open(flood_geojson_path, "r", encoding="utf-8") as f:
+            flood_geojson_data = json.load(f)
+        folium.GeoJson(
+            flood_geojson_data,
+            name="Flood Inundation Extent",
+            style_function=lambda x: {
+                "fillColor": "#00D2FF",
+                "color": "#0284C7",
+                "weight": 1.2,
+                "fillOpacity": 0.65,
+            },
+            tooltip=folium.GeoJsonTooltip(
+                fields=["label", "area_ha"],
+                aliases=["Class:", "Area (ha):"],
+                localize=True,
+            ),
+        ).add_to(fg_flood)
+    else:
+        # Generate RGBA image overlay for the flood mask
+        mask_h, mask_w = flood_mask.shape
+        flood_rgba = np.zeros((mask_h, mask_w, 4), dtype=np.uint8)
+        flood_rgba[flood_mask] = [0, 210, 255, 170]  # Vivid cyan with 65% opacity
+        folium.raster_layers.ImageOverlay(
+            image=flood_rgba,
+            bounds=[[wgs_south, wgs_west], [wgs_north, wgs_east]],
+            opacity=0.75,
+            name="Flood Inundation Extent",
+            interactive=False,
+        ).add_to(fg_flood)
     fg_flood.add_to(m)
 
     # Layer 2: Road Network Status (Passable = Emerald, Flooded = Crimson, Damaged Bridge = Amber)
@@ -1099,7 +1130,7 @@ with tab_map:
     fg_post_sar = folium.FeatureGroup(name="🛰️ Post-Flood SAR Grayscale Tiles", show=False)
     folium.raster_layers.ImageOverlay(
         image=_db_to_rgba(post_db),
-        bounds=[[south, west], [north, east]],
+        bounds=[[wgs_south, wgs_west], [wgs_north, wgs_east]],
         opacity=0.85,
         name="Post-Flood SAR",
     ).add_to(fg_post_sar)
@@ -1108,7 +1139,7 @@ with tab_map:
     fg_pre_sar = folium.FeatureGroup(name="🛰️ Pre-Flood SAR Baseline Tiles", show=False)
     folium.raster_layers.ImageOverlay(
         image=_db_to_rgba(pre_db),
-        bounds=[[south, west], [north, east]],
+        bounds=[[wgs_south, wgs_west], [wgs_north, wgs_east]],
         opacity=0.85,
         name="Pre-Flood SAR",
     ).add_to(fg_pre_sar)
@@ -1223,7 +1254,7 @@ with tab_dispatch:
                                 <b>Staging Hub:</b> {row['Nearest_Hub']} ({row['Dist_to_Hub_km']:.1f} km)
                             </div>
                             <div style="margin-top:8px; background:#162444; padding:8px 12px; border-radius:6px; font-size:0.85rem; color:#38BDF8;">
-                                <b>Direct Tactical Order:</b> {row['Recommended_Action']}
+                                <b>Suggested Response (Rule-Based):</b> {row['Recommended_Action']}
                             </div>
                         </div>
                         """,
@@ -1233,18 +1264,6 @@ with tab_dispatch:
         # Formatted Interactive Table
         st.markdown(f"#### 📑 Ranked Manifest ({len(filtered_df)} of {len(manifest_df)} clusters displayed)")
 
-        display_cols = [
-            "Rank",
-            "Cluster_ID",
-            "Priority_Tier",
-            "Priority_Score",
-            "Estimated_Population",
-            "Trapped_Nodes",
-            "Nearest_Hub",
-            "Dist_to_Hub_km",
-            "Recommended_Action",
-            "Coordinates",
-        ]
         # Build coordinates if not in df
         if "Coordinates" not in filtered_df.columns:
             filtered_df["Coordinates"] = (
@@ -1254,15 +1273,35 @@ with tab_dispatch:
                 + "° E"
             )
 
+        df_to_show = filtered_df.rename(columns={"Recommended_Action": "Suggested_Response (Rule-Based)"})
+        display_cols = [
+            "Rank",
+            "Cluster_ID",
+            "Priority_Tier",
+            "Priority_Score",
+            "Estimated_Population",
+            "Trapped_Nodes",
+            "Nearest_Hub",
+            "Dist_to_Hub_km",
+            "Suggested_Response (Rule-Based)",
+            "Coordinates",
+        ]
+
         # Display table with formatting
         st.dataframe(
-            filtered_df[display_cols].style.format({
+            df_to_show[display_cols].style.format({
                 "Priority_Score": "{:.1f}",
                 "Estimated_Population": "{:,}",
                 "Dist_to_Hub_km": "{:.1f} km",
             }),
             use_container_width=True,
             height=340,
+        )
+
+        st.caption(
+            "ℹ️ **Operational Notes:** "
+            "1) **Suggested Response**: Rule-based operational heuristic derived from priority tier and hospital distance, not hydraulic bathymetry. "
+            "2) **Spatial Population**: Counts (~2,700 each) reflect a 350m radius buffer around isolated single-node road intersections across the uniform rural population surface."
         )
 
         # Download Buttons
