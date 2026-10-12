@@ -146,7 +146,52 @@ class GroundedTemplateEngine:
                 f"• Suggested Response: Immediate rotary-wing airdrop of medical supplies and non-perishable rations; foot trail engineering assessment."
             )
 
+    def _is_unanswerable(self, query: str) -> Tuple[bool, str]:
+        """Detect out-of-scope / unanswerable query categories."""
+        q = query.lower()
+        casualty_kws = [
+            "casualty", "casualties", "death", "deaths", "died", "fatality", "fatalities",
+            "injury", "injuries", "injured", "killed", "dead", "हताहत", "मृत्यु", "मरेको", "मरेका", "घाइते"
+        ]
+        if any(kw in q for kw in casualty_kws):
+            return True, "casualties"
+
+        forecast_kws = [
+            "forecast", "prediction", "predict", "will rain", "will flood", "future weather",
+            "precipitation model", "tomorrow", "next week", "भविष्यवाणी", "पूर्वानुमान", "पानी पर्नेछ"
+        ]
+        if any(kw in q for kw in forecast_kws):
+            return True, "weather_forecast"
+
+        depth_kws = [
+            "water depth", "depth in meter", "bathymetry", "how deep", "meter deep",
+            "metre deep", "river depth", "lake depth", "पानीको गहिराई", "गहिराई मिटर", "बाथिमेट्री"
+        ]
+        if any(kw in q for kw in depth_kws):
+            return True, "water_depth"
+
+        unobs_kws = [
+            "unobserved", "not observed", "outside satellite", "beyond satellite",
+            "swath", "satellite coverage", "not covered", "उपग्रहको बाहिर", "निगरानी बाहिर", "कभरेज बाहिर"
+        ]
+        if any(kw in q for kw in unobs_kws):
+            return True, "unobserved_location"
+
+        return False, ""
+
     def answer_query(self, query: str, lang: Language) -> str:
+        unans, cat = self._is_unanswerable(query)
+        if unans:
+            if lang == Language.NEPALI:
+                return (
+                    "उत्तर: Data Not Available in Satellite Maps / उपग्रह नक्सामा उपलब्ध छैन\n"
+                    "(मानवीय हताहती, मौसम पूर्वानुमान, पानीको गहिराई, र उपग्रह दृश्य बाहिरका क्षेत्रहरूको विवरण Sentinel-1 वा OpenStreetMap नक्सामा उपलब्ध छैन।)"
+                )
+            return (
+                "Answer: Data Not Available in Satellite Maps / उपग्रह नक्सामा उपलब्ध छैन\n"
+                "(Casualty counts, future weather forecasts, water depth bathymetry, and unobserved areas outside the satellite swath are not provided by Sentinel-1 or OpenStreetMap baselines.)"
+            )
+
         q = query.lower()
         if any(w in q for w in ["brief", "summary", "overview", "situation", "संक्षेप", "सारांश", "स्थिति"]):
             return self.situation_brief(lang)

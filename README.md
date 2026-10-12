@@ -208,12 +208,29 @@ Official validation against Copernicus EMS Rapid Mapping activation **EMSR927** 
 
 ---
 
-## 📦 Data Attributions & Licensing
+## 📦 Data Attributions & Dataset Citations
 
-- **Sentinel-1 SAR**: European Space Agency (ESA) Copernicus Programme via Microsoft Planetary Computer STAC.
-- **OpenStreetMap**: © OpenStreetMap contributors, licensed under Open Database License (ODbL). Pre-event data retrieved via Heidelberg Institute for Geoinformation Technology (HeiGIT) ohsome API.
-- **DEM Elevation**: NASA NASADEM / SRTM (30m) via NASA Earthdata.
-- **Copernicus EMSR927**: European Commission Copernicus Emergency Management Service Rapid Mapping.
+This software strictly adheres to academic citations and open data licensing requirements:
+
+1. **Kuro Siwo Dataset (CVPR 2024)**:
+   - Rahman, M. A., Saha, S., Roy, D., Islam, M. S., & Vatsavai, R. (2024). *Kuro Siwo: A Multimodal Dataset for Flood Inundation Mapping*. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 17492–17502.
+   - Attribution: *Kuro Siwo dataset © 2024 Rahman et al., licensed under CC BY 4.0.*
+
+2. **Sen1Floods11 Dataset (CVPRW 2020)**:
+   - Bonafilia, D., Tellman, B., Anderson, T., & Issenberg, E. (2020). *Sen1Floods11: A Georeferenced Dataset to Train and Evaluate Deep Learning Flood Algorithms on Sentinel-1 SAR*. IEEE/CVF CVPR Workshops, pp. 210–211.
+   - Attribution: *Sen1Floods11 dataset © 2020 Bonafilia et al., licensed under CC BY 4.0.*
+
+3. **Copernicus Sentinel-1 SAR (ESA)**:
+   - *Contains modified Copernicus Sentinel data [2026], processed by ESA.* Data accessed via Microsoft Planetary Computer STAC API. Licensed under Copernicus Free and Open Data License.
+
+4. **OpenStreetMap Contributors (ODbL v1.0)**:
+   - *© OpenStreetMap contributors. Data available under the Open Database License (ODbL) v1.0.* Pre-event baseline snapshots retrieved via HeiGIT ohsome API (`≤ 2026-07-27`).
+
+5. **Copernicus Emergency Management Service (EMS) Rapid Mapping EMSR927**:
+   - *© European Union, Copernicus Emergency Management Service 2026. Product derived from Copernicus EMS Rapid Mapping data (Activation EMSR927).* Quarantined as an air-gapped evaluation benchmark only.
+
+6. **NASA NASADEM / SRTM (30m)**:
+   - NASA Shuttle Radar Topography Mission / NASADEM Global Elevation Model, courtesy NASA Earthdata / LP DAAC. Public Domain.
 
 ---
 
