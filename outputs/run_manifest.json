@@ -1,7 +1,7 @@
 {
   "pipeline_name": "Track B: Mapping Flood Damage from Space",
   "case_study": "Bhote Koshi-Trishuli River Corridor GLOF & Flood Disaster, Nepal (Copernicus EMSR927)",
-  "run_timestamp": "2026-10-12T05:14:47.431268+00:00",
+  "run_timestamp": "2026-10-12T05:57:41.186201+00:00",
   "inputs": {
     "bbox": [
       85.15,
@@ -19,52 +19,52 @@
     "1. S1 Pair Discovery": {
       "status": "SUCCESS",
       "duration_seconds": 0.0,
-      "timestamp": "2026-10-12T05:14:47.431756+00:00"
+      "timestamp": "2026-10-12T05:57:41.186723+00:00"
     },
     "2. S1 Preprocessing & Filtering": {
       "status": "SUCCESS",
-      "duration_seconds": 7.772,
-      "timestamp": "2026-10-12T05:14:55.204117+00:00"
+      "duration_seconds": 0.025,
+      "timestamp": "2026-10-12T05:57:41.211748+00:00"
     },
     "3. DEM & Mountain Shadow/Layover Masking": {
       "status": "SUCCESS",
-      "duration_seconds": 7.88,
-      "timestamp": "2026-10-12T05:15:03.085500+00:00"
+      "duration_seconds": 4.117,
+      "timestamp": "2026-10-12T05:57:45.329163+00:00"
     },
     "4. Pre-Event OSM Historical Ingestion (<= 27 July 2026)": {
       "status": "SUCCESS",
-      "duration_seconds": 0.211,
-      "timestamp": "2026-10-12T05:15:03.295747+00:00"
+      "duration_seconds": 0.161,
+      "timestamp": "2026-10-12T05:57:45.489372+00:00"
     },
     "5. Road Graph Nodalization & Building Mapping": {
       "status": "SUCCESS",
-      "duration_seconds": 0.02,
-      "timestamp": "2026-10-12T05:15:03.317676+00:00"
+      "duration_seconds": 0.009,
+      "timestamp": "2026-10-12T05:57:45.500217+00:00"
     },
     "6. Mountain SAR Flood & Mudflow Detection": {
       "status": "SUCCESS",
-      "duration_seconds": 3.103,
-      "timestamp": "2026-10-12T05:15:06.516944+00:00"
+      "duration_seconds": 1.834,
+      "timestamp": "2026-10-12T05:57:47.418181+00:00"
     },
     "7. Infrastructure Damage Assessment (40m Bridge Scour)": {
       "status": "SUCCESS",
-      "duration_seconds": 0.418,
-      "timestamp": "2026-10-12T05:15:06.935460+00:00"
+      "duration_seconds": 0.416,
+      "timestamp": "2026-10-12T05:57:47.834985+00:00"
     },
     "8. Dijkstra Cut-Off & Community Isolation Analysis": {
       "status": "SUCCESS",
-      "duration_seconds": 0.029,
-      "timestamp": "2026-10-12T05:15:06.965061+00:00"
+      "duration_seconds": 0.023,
+      "timestamp": "2026-10-12T05:57:47.857821+00:00"
     },
     "9. Cryptographic FactStore Assembly": {
       "status": "SUCCESS",
       "duration_seconds": 0.002,
-      "timestamp": "2026-10-12T05:15:06.967064+00:00"
+      "timestamp": "2026-10-12T05:57:47.859960+00:00"
     },
     "10. Bilingual Situation Report Generation (EN & NE)": {
       "status": "SUCCESS",
-      "duration_seconds": 0.042,
-      "timestamp": "2026-10-12T05:15:07.009808+00:00"
+      "duration_seconds": 0.032,
+      "timestamp": "2026-10-12T05:57:47.891332+00:00"
     }
   },
   "outputs": {
@@ -102,7 +102,7 @@
       "total_buildings": 120
     },
     "cutoff_summary": {
-      "timestamp": "2026-10-12T05:15:06.964061+00:00",
+      "timestamp": "2026-10-12T05:57:47.857313+00:00",
       "total_nodes": 27,
       "n_cutoff_nodes": 2,
       "n_severely_delayed_nodes": 0,
@@ -125,7 +125,7 @@
       "sitrep_ne": "outputs\\sitreps\\sitrep_ne.md"
     }
   },
-  "provenance_hash": "ffe3d410463e2cbbec032590fc3929b9eee5df7a61f80e828923ab29220be6a9",
+  "provenance_hash": "2cdde3c1e2dccfed391c7e7fd94ec8658cff1ef1eed0c65fd3741318d543dba0",
   "status": "SUCCESS",
-  "total_duration_seconds": 19.48
+  "total_duration_seconds": 6.62
 }

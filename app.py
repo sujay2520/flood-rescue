@@ -283,8 +283,13 @@ def ensure_demo_data(event_choice: str) -> Dict[str, str]:
         paths = generate_demo_event(output_dir=demo_dir)
         return paths
 
-    # Fallback to Sindh
-    return generate_demo_event(output_dir="data/demo_sindh")
+    # Default fallback strictly to Track B Nepal EMSR927
+    return {
+        "is_track_b": True,
+        "is_precomputed": True,
+        "precomputed_dir": "outputs",
+        "hubs_geojson": "outputs/osm",
+    }
 
 
 def _generate_valencia_demo_event(output_dir: str) -> Dict[str, str]:
@@ -902,10 +907,6 @@ with st.sidebar:
         "Active AOI / Event",
         [
             "Track B: Nepal Bhote Koshi–Trishuli River GLOF (August 2026 / EMSR927)",
-            "Real Satellite RTC: Dadu District, Sindh (2022 Flood Peak - Sentinel-1)",
-            "Synthetic Fast Demo: Dadu District, Sindh (Instant Test)",
-            "Valencia Flood Event (Spain 2024)",
-            "Generate Custom Synthetic AOI",
             "Upload Custom Pre & Post SAR GeoTIFFs",
         ],
         index=0,

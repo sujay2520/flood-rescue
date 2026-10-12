@@ -1,0 +1,26 @@
+# Ignore Python backend files and dependencies entirely
+*.py
+requirements*.txt
+packages*.txt
+Pipfile*
+pyproject.toml
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Ignore backend source, scripts, tests, data & outputs
+src/
+tests/
+scripts/
+outputs/
+validation/
+data/
+cache/
+
+# Ignore local config/IDE files
+.git
+.gitignore
+README.md
+Dockerfile
+docker-compose*.yml

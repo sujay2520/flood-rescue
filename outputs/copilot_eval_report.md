@@ -1,5 +1,5 @@
 # 🤖 Bilingual Copilot Quantitative Evaluation Report
-**Evaluation Timestamp:** `2026-10-12T05:46:10.312823+00:00`  
+**Evaluation Timestamp:** `2026-10-12T05:58:19.768913+00:00`  
 **Test Suite:** 20 Scenarios (12 Answerable + 8 Unanswerable) across English & Nepali = **40 Total Evaluated Queries**  
 **Grounding Guarantee:** Cryptographic FactStore (SHA-256) + Deterministic Number Validator  
 
@@ -13,7 +13,7 @@
 | **Numeric Hallucination Rate** | 0.0% | **0.0%** (0 violations) | ✅ PASS |
 | **Refusal Accuracy on Out-of-Scope Queries** | 100.0% | **100.0%** (16/16) | ✅ PASS |
 | **Overall Benchmark Accuracy** | ≥ 95.0% | **100.0%** (40/40) | ✅ PASS |
-| **Average Inference Latency** | < 50ms | **0.33 ms** | ✅ PASS |
+| **Average Inference Latency** | < 50ms | **0.17 ms** | ✅ PASS |
 
 ---
 
@@ -30,22 +30,22 @@
 | Q03 | NE | `bridges_severed` | कति वटा पुल सम्पर्कविहीन भएका छन्? | ✅ | 0 | 0.0ms |
 | Q04 | EN | `buildings_inundated` | How many buildings are directly inundated by floodwaters? | ✅ | 0 | 0.0ms |
 | Q04 | NE | `buildings_inundated` | बाढीबाट कति भवनहरू प्रत्यक्ष प्रभावित छन्? | ✅ | 0 | 1.0ms |
-| Q05 | EN | `isolated_clusters` | How many cut-off settlement clusters are isolated from hospitals? | ✅ | 0 | 0.0ms |
-| Q05 | NE | `isolated_clusters` | अस्पतालहरूबाट कति बस्ती समूहहरू सम्पर्कविहीन छन्? | ✅ | 0 | 0.0ms |
+| Q05 | EN | `isolated_clusters` | How many cut-off settlement clusters are isolated from hospitals? | ✅ | 0 | 1.0ms |
+| Q05 | NE | `isolated_clusters` | अस्पतालहरूबाट कति बस्ती समूहहरू सम्पर्कविहीन छन्? | ✅ | 0 | 1.0ms |
 | Q06 | EN | `isolated_buildings` | How many pre-event OSM buildings are cut off in isolated clusters? | ✅ | 0 | 0.0ms |
 | Q06 | NE | `isolated_buildings` | सम्पर्कविहीन बस्तीहरूमा कति वटा भवनहरू छन्? | ✅ | 0 | 0.0ms |
-| Q07 | EN | `roads_total` | What is the total road network length analyzed? | ✅ | 0 | 1.0ms |
+| Q07 | EN | `roads_total` | What is the total road network length analyzed? | ✅ | 0 | 0.0ms |
 | Q07 | NE | `roads_total` | कुल विश्लेषण गरिएको सडक सञ्जालको लम्बाई कति हो? | ✅ | 0 | 0.0ms |
-| Q08 | EN | `bridges_total` | How many total bridges were assessed in the corridor? | ✅ | 0 | 1.0ms |
+| Q08 | EN | `bridges_total` | How many total bridges were assessed in the corridor? | ✅ | 0 | 0.0ms |
 | Q08 | NE | `bridges_total` | करिडोरमा कुल कति पुलहरूको मूल्याङ्कन गरिएको थियो? | ✅ | 0 | 0.0ms |
-| Q09 | EN | `executive_brief` | Give me the executive disaster summary brief. | ✅ | 0 | 1.0ms |
+| Q09 | EN | `executive_brief` | Give me the executive disaster summary brief. | ✅ | 0 | 0.0ms |
 | Q09 | NE | `executive_brief` | विपद् स्थिति संक्षेप विवरण दिनुहोस्। | ✅ | 0 | 0.0ms |
 | Q10 | EN | `road_bridge_status` | What is the status of the highway and bridge network? | ✅ | 0 | 0.0ms |
 | Q10 | NE | `road_bridge_status` | राजमार्ग र पुल सञ्जालको स्थिति के छ? | ✅ | 0 | 1.0ms |
 | Q11 | EN | `priority_cluster` | Which settlement cluster is Priority 1 for evacuation? | ✅ | 0 | 1.0ms |
-| Q11 | NE | `priority_cluster` | उद्धारको लागि प्राथमिकता १ बस्ती कुन हो? | ✅ | 0 | 1.0ms |
-| Q12 | EN | `response_recommendations` | What are the recommended operational response actions? | ✅ | 0 | 1.0ms |
-| Q12 | NE | `response_recommendations` | सुझाव गरिएका उद्धार कार्यहरू के के हुन्? | ✅ | 0 | 1.0ms |
+| Q11 | NE | `priority_cluster` | उद्धारको लागि प्राथमिकता १ बस्ती कुन हो? | ✅ | 0 | 0.0ms |
+| Q12 | EN | `response_recommendations` | What are the recommended operational response actions? | ✅ | 0 | 0.0ms |
+| Q12 | NE | `response_recommendations` | सुझाव गरिएका उद्धार कार्यहरू के के हुन्? | ✅ | 0 | 0.0ms |
 
 ### B. Unanswerable Out-of-Scope Queries (16 total: 8 EN + 8 NE)
 *(Casualties, death tolls, precipitation forecasts, river bathymetry, and unobserved regions outside satellite swath)*

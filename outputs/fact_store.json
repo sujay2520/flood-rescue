@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-12T05:15:06.966062+00:00",
+  "generated_at": "2026-10-12T05:57:47.858939+00:00",
   "fact_count": 13,
   "facts": {
     "FLOOD_AREA_KM2": {
@@ -11,7 +11,7 @@
       "description_en": "Total flooded/debris area mapped from satellite radar",
       "description_ne": "उपग्रह रडारबाट नक्शा गरिएको कुल बाढी तथा गेग्रान ग्रस्त क्षेत्रफल",
       "provenance_hash": "e4026e7aaa57417a3d08564c941a83983d318b2ad9167ce5527a155a2157ef13",
-      "timestamp": "2026-10-12T05:15:06.965061+00:00"
+      "timestamp": "2026-10-12T05:57:47.857821+00:00"
     },
     "FLOOD_PIXELS_COUNT": {
       "fact_id": "FLOOD_PIXELS_COUNT",
@@ -21,7 +21,7 @@
       "description_en": "Count of 10m satellite pixels classified as flooded",
       "description_ne": "बाढी ग्रस्त वर्गीकरण गरिएका १० मिटर उपग्रह पिक्सेलको संख्या",
       "provenance_hash": "e4026e7aaa57417a3d08564c941a83983d318b2ad9167ce5527a155a2157ef13",
-      "timestamp": "2026-10-12T05:15:06.965061+00:00"
+      "timestamp": "2026-10-12T05:57:47.857821+00:00"
     },
     "ROADS_TOTAL_KM": {
       "fact_id": "ROADS_TOTAL_KM",
@@ -31,7 +31,7 @@
       "description_en": "Total road length in observed area",
       "description_ne": "अध्ययन क्षेत्रमा सडकको कुल लम्बाई",
       "provenance_hash": "e4026e7aaa57417a3d08564c941a83983d318b2ad9167ce5527a155a2157ef13",
-      "timestamp": "2026-10-12T05:15:06.965061+00:00"
+      "timestamp": "2026-10-12T05:57:47.857821+00:00"
     },
     "ROADS_AFFECTED_KM": {
       "fact_id": "ROADS_AFFECTED_KM",
@@ -41,7 +41,7 @@
       "description_en": "Length of roads affected or cut by floodwaters/debris",
       "description_ne": "बाढी वा पहिरोले प्रभावित वा अवरुद्ध भएको सडकको लम्बाई",
       "provenance_hash": "e4026e7aaa57417a3d08564c941a83983d318b2ad9167ce5527a155a2157ef13",
-      "timestamp": "2026-10-12T05:15:06.965061+00:00"
+      "timestamp": "2026-10-12T05:57:47.857821+00:00"
     },
     "ROADS_NOT_ASSESSABLE_KM": {
       "fact_id": "ROADS_NOT_ASSESSABLE_KM",
@@ -51,7 +51,7 @@
       "description_en": "Road length in radar shadow or layover unobservable from space",
       "description_ne": "रडार छायाँ वा लेओभरका कारण अन्तरिक्षबाट अवलोकन गर्न नसकिएको सडक लम्बाई",
       "provenance_hash": "e4026e7aaa57417a3d08564c941a83983d318b2ad9167ce5527a155a2157ef13",
-      "timestamp": "2026-10-12T05:15:06.965061+00:00"
+      "timestamp": "2026-10-12T05:57:47.857821+00:00"
     },
     "BRIDGES_TOTAL_COUNT": {
       "fact_id": "BRIDGES_TOTAL_COUNT",
@@ -61,7 +61,7 @@
       "description_en": "Total bridge crossings in the study corridor",
       "description_ne": "अध्ययन करिडोरमा रहेका कुल पुलहरूको संख्या",
       "provenance_hash": "e4026e7aaa57417a3d08564c941a83983d318b2ad9167ce5527a155a2157ef13",
-      "timestamp": "2026-10-12T05:15:06.965061+00:00"
+      "timestamp": "2026-10-12T05:57:47.857821+00:00"
     },
     "BRIDGES_SEVERED_COUNT": {
       "fact_id": "BRIDGES_SEVERED_COUNT",
@@ -71,7 +71,7 @@
       "description_en": "Count of bridges severed directly or via 40m approach washouts",
       "description_ne": "प्रत्यक्ष वा ४० मिटर पहुँच सडक कटानका कारण सम्पर्कविच्छेद भएका पुलहरूको संख्या",
       "provenance_hash": "e4026e7aaa57417a3d08564c941a83983d318b2ad9167ce5527a155a2157ef13",
-      "timestamp": "2026-10-12T05:15:06.965061+00:00"
+      "timestamp": "2026-10-12T05:57:47.857821+00:00"
     },
     "BUILDINGS_TOTAL_COUNT": {
       "fact_id": "BUILDINGS_TOTAL_COUNT",
@@ -81,7 +81,7 @@
       "description_en": "Total pre-event OSM mapped buildings in corridor",
       "description_ne": "करिडोरमा रहेका कुल पूर्व-घटना ओएसएम भवनहरू",
       "provenance_hash": "e4026e7aaa57417a3d08564c941a83983d318b2ad9167ce5527a155a2157ef13",
-      "timestamp": "2026-10-12T05:15:06.965061+00:00"
+      "timestamp": "2026-10-12T05:57:47.857821+00:00"
     },
     "BUILDINGS_FLOODED_COUNT": {
       "fact_id": "BUILDINGS_FLOODED_COUNT",
@@ -91,7 +91,7 @@
       "description_en": "Buildings directly intersecting flood or mudflow extent",
       "description_ne": "प्रत्यक्ष रूपमा बाढी वा लेदो बहावमा परेका भवनहरूको संख्या",
       "provenance_hash": "e4026e7aaa57417a3d08564c941a83983d318b2ad9167ce5527a155a2157ef13",
-      "timestamp": "2026-10-12T05:15:06.965061+00:00"
+      "timestamp": "2026-10-12T05:57:47.857821+00:00"
     },
     "CUTOFF_CLUSTERS_COUNT": {
       "fact_id": "CUTOFF_CLUSTERS_COUNT",
@@ -101,7 +101,7 @@
       "description_en": "Number of distinct settlement clusters completely cut off from road network",
       "description_ne": "सडक सञ्जालबाट पूर्ण रूपमा सम्पर्कविच्छेद भएका बस्ती समूहहरूको संख्या",
       "provenance_hash": "e4026e7aaa57417a3d08564c941a83983d318b2ad9167ce5527a155a2157ef13",
-      "timestamp": "2026-10-12T05:15:06.965061+00:00"
+      "timestamp": "2026-10-12T05:57:47.857821+00:00"
     },
     "CUTOFF_BUILDINGS_COUNT": {
       "fact_id": "CUTOFF_BUILDINGS_COUNT",
@@ -111,7 +111,7 @@
       "description_en": "Total number of buildings completely cut off from road network",
       "description_ne": "सडक सञ्जालबाट पूर्ण रूपमा सम्पर्कविच्छेद भएका भवनहरूको कुल संख्या",
       "provenance_hash": "e4026e7aaa57417a3d08564c941a83983d318b2ad9167ce5527a155a2157ef13",
-      "timestamp": "2026-10-12T05:15:06.965061+00:00"
+      "timestamp": "2026-10-12T05:57:47.857821+00:00"
     },
     "CUTOFF_CLUSTER_1_BUILDINGS": {
       "fact_id": "CUTOFF_CLUSTER_1_BUILDINGS",
@@ -121,7 +121,7 @@
       "description_en": "Buildings in isolated cluster Settlement Cluster #1",
       "description_ne": "Settlement Cluster #1 सम्पर्कविहीन बस्तीमा रहेका भवनहरू",
       "provenance_hash": "e4026e7aaa57417a3d08564c941a83983d318b2ad9167ce5527a155a2157ef13",
-      "timestamp": "2026-10-12T05:15:06.965061+00:00"
+      "timestamp": "2026-10-12T05:57:47.857821+00:00"
     },
     "SATELLITE_RELATIVE_ORBIT": {
       "fact_id": "SATELLITE_RELATIVE_ORBIT",
@@ -131,7 +131,7 @@
       "description_en": "Sentinel-1 relative orbit track",
       "description_ne": "सेन्टिनेल-१ उपग्रहको सापेक्षिक कक्ष ट्र्याक",
       "provenance_hash": "e4026e7aaa57417a3d08564c941a83983d318b2ad9167ce5527a155a2157ef13",
-      "timestamp": "2026-10-12T05:15:06.965061+00:00"
+      "timestamp": "2026-10-12T05:57:47.857821+00:00"
     }
   }
 }

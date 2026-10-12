@@ -3,7 +3,7 @@
 **Date of Disaster:** 26 August 2026  
 **Geographic Area:** Bhote Koshi–Trishuli River Corridor, Bagmati Province, Nepal  
 **Reference Case Study:** Copernicus Emergency Management Service (EMSR927 comparison)  
-**Report Generated:** 2026-10-12 05:15:06 UTC  
+**Report Generated:** 2026-10-12 05:57:47 UTC  
 
 ## 1. Earth Observation Acquisition & Terrain Geometry
 - **Radar Sensor:** Sentinel-1 C-band Synthetic Aperture Radar (GRD IW)

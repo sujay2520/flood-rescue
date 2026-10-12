@@ -44,3 +44,5 @@ output/*.tif
 
 # Streamlit local state
 .streamlit/secrets.toml
+
+.vercel
