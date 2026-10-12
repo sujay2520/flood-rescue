@@ -1,0 +1,40 @@
+================================================================================
+MULTIMODAL AI HACKATHON 2026 — TRACK B: MAPPING FLOOD DAMAGE FROM SPACE
+OFFICIAL SUBMISSION MANIFEST
+================================================================================
+
+REPO:             https://github.com/sujay2520/flood-rescue
+COMMIT:           aea1dcbf566245dd0842efb973ddd7721ca8ded5
+BRANCH:           main
+CASE STUDY:       August 26, 2026 Bhote Koshi / Trishuli River Corridor GLOF & Flood, Nepal
+BENCHMARK:        Copernicus Emergency Management Service (EMS) EMSR927 (Quarantined)
+
+ONE-COMMAND CLI:
+python scripts/run.py --bbox 85.15 27.85 85.45 28.25 --date 2026-08-26 --offline
+Execution Runtime: 19.48s on laptop CPU (Edge/Offline Capable, Zero GPU Required)
+
+TACTICAL DASHBOARD:
+streamlit run app.py (Interactive 6-Tab OODA Loop Decision Support Tool)
+
+TEST SUITE:
+pytest tests/test_track_b.py -v (7/7 tests passed in 8.32s)
+
+QUANTITATIVE PERFORMANCE (validation/emsr927/METRICS.md):
+• Intersection-over-Union (IoU): 68.2%
+• F1-Score:                      78.8%
+• Precision:                     85.1% (High confidence / low false alarm rate)
+• Recall:                        73.5% (Excludes radar shadow gorge terrain)
+
+SCIENTIFIC & POLICY INTEGRITY:
+1. Pre-Event OSM Constraint: Strictly on or before 27 July 2026 (2026-07-27T00:00:00Z) via ohsome API.
+2. Zero WorldPop / Demographic Grids: Completely banned to eliminate 100x resampling density bug; strictly reports pre-event building footprint counts (n_buildings).
+3. Mountain SAR Radar Physics: Orbit 121 same-track pairing, NASADEM/SRTM DEM shadow and layover masking, Refined Lee speckle filter, urban double-bounce suppression, 40m bridge approach hydrodynamic scour.
+4. AI Component (25% Rubric): Bilingual Situation-Report Copilot (English + Nepali) with deterministic Number Hallucination Validator against cryptographic FactStore (SHA-256).
+
+AUDIT ARTIFACTS:
+• README.md:              Comprehensive project guide and benchmark table
+• REPORT.md:              6-page scientific and operational technical report
+• DEMO_VIDEO_SCRIPT.md:   180-second high-tempo OODA loop video demonstration script
+• validation/emsr927/:    Quarantined verification benchmark metrics
+• outputs/:               GeoJSONs, run_manifest.json, fact_store.json, sitrep_en.md, sitrep_ne.md
+================================================================================
