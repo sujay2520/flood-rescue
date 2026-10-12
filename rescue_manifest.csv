@@ -1,4 +1,2 @@
-Rank,Cluster_ID,Priority_Tier,Priority_Score,Estimated_Population,Trapped_Nodes,Dist_to_Hub_km,Nearest_Hub,Centroid_Lat,Centroid_Lon,Recommended_Action
-1,Isolated_Junction_02,MEDIUM,40.9,27,1,7.66,Relief_Hub_10056715748,26.685213,68.096008,Shallow-draft boat evacuation / monitoring
-2,Isolated_Junction_01,MEDIUM,30.0,27,1,1.94,Relief_Hub_9777610665,26.809655,68.115229,Road detour possible / High-clearance vehicle rescue
-3,Isolated_Junction_03,LOW,13.7,26,1,4.92,Relief_Hub_12049443393,26.712675,68.007291,Road detour possible / Monitor flood levels
+Rank,Cluster_ID,Settlement_Name,CutOff_Buildings,Trapped_Nodes,Nearest_Hub,Dist_to_Hub_km,Priority_Tier,Priority_Score,Suggested_Response,Coordinates
+1,ISOL-01,Dhunche Gorge Cluster #1,0,2,Dhunche District Hospital,4.2,HIGH,75.0,Heavy equipment road clearance required (Highway approach scoured),"28.1650° N, 85.3250° E"

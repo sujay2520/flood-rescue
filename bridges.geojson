@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "bridges",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "osm_id": -100, "name": "Bidur Bridge", "approach_severed": false, "status": "not_affected" }, "geometry": { "type": "LineString", "coordinates": [ [ 85.155, 27.925 ], [ 85.158, 27.927 ] ] } },
+{ "type": "Feature", "properties": { "osm_id": -101, "name": "Trishuli Bridge", "approach_severed": true, "status": "affected" }, "geometry": { "type": "LineString", "coordinates": [ [ 85.215, 27.995 ], [ 85.218, 27.997 ] ] } },
+{ "type": "Feature", "properties": { "osm_id": -102, "name": "Dhunche Bridge", "approach_severed": false, "status": "not_affected" }, "geometry": { "type": "LineString", "coordinates": [ [ 85.325, 28.145 ], [ 85.328, 28.147 ] ] } },
+{ "type": "Feature", "properties": { "osm_id": -103, "name": "Syafru Khola Bridge", "approach_severed": false, "status": "not_affected" }, "geometry": { "type": "LineString", "coordinates": [ [ 85.305, 28.095 ], [ 85.308, 28.097 ] ] } }
+]
+}
