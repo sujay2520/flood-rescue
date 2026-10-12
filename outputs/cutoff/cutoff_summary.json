@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-10-12T05:15:06.964061+00:00",
+  "total_nodes": 27,
+  "n_cutoff_nodes": 2,
+  "n_severely_delayed_nodes": 0,
+  "n_accessible_nodes": 25,
+  "n_cutoff_clusters": 1,
+  "total_cutoff_buildings": 0,
+  "clusters": [
+    {
+      "cluster_id": 1,
+      "name": "Settlement Cluster #1",
+      "n_buildings": 0,
+      "n_nodes": 2,
+      "suggested_response": "Heavy equipment road clearance required (Highway corridor blocked)"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "total_road_km": 65.16813057196053,
+  "affected_road_km": 46.884494393260574,
+  "not_affected_road_km": 18.283636178699968,
+  "not_assessable_road_km": 0.0,
+  "total_bridges": 4,
+  "severed_bridges": 1,
+  "flooded_buildings_count": 5,
+  "total_buildings": 120
+}

@@ -1,0 +1,131 @@
+{
+  "pipeline_name": "Track B: Mapping Flood Damage from Space",
+  "case_study": "Bhote Koshi-Trishuli River Corridor GLOF & Flood Disaster, Nepal (Copernicus EMSR927)",
+  "run_timestamp": "2026-10-12T05:14:47.431268+00:00",
+  "inputs": {
+    "bbox": [
+      85.15,
+      27.85,
+      85.45,
+      28.25
+    ],
+    "event_date": "2026-08-26",
+    "max_lookback_days": 30,
+    "orbit_state": "ascending",
+    "osm_timestamp": "2026-07-27T00:00:00Z",
+    "force_offline": true
+  },
+  "steps": {
+    "1. S1 Pair Discovery": {
+      "status": "SUCCESS",
+      "duration_seconds": 0.0,
+      "timestamp": "2026-10-12T05:14:47.431756+00:00"
+    },
+    "2. S1 Preprocessing & Filtering": {
+      "status": "SUCCESS",
+      "duration_seconds": 7.772,
+      "timestamp": "2026-10-12T05:14:55.204117+00:00"
+    },
+    "3. DEM & Mountain Shadow/Layover Masking": {
+      "status": "SUCCESS",
+      "duration_seconds": 7.88,
+      "timestamp": "2026-10-12T05:15:03.085500+00:00"
+    },
+    "4. Pre-Event OSM Historical Ingestion (<= 27 July 2026)": {
+      "status": "SUCCESS",
+      "duration_seconds": 0.211,
+      "timestamp": "2026-10-12T05:15:03.295747+00:00"
+    },
+    "5. Road Graph Nodalization & Building Mapping": {
+      "status": "SUCCESS",
+      "duration_seconds": 0.02,
+      "timestamp": "2026-10-12T05:15:03.317676+00:00"
+    },
+    "6. Mountain SAR Flood & Mudflow Detection": {
+      "status": "SUCCESS",
+      "duration_seconds": 3.103,
+      "timestamp": "2026-10-12T05:15:06.516944+00:00"
+    },
+    "7. Infrastructure Damage Assessment (40m Bridge Scour)": {
+      "status": "SUCCESS",
+      "duration_seconds": 0.418,
+      "timestamp": "2026-10-12T05:15:06.935460+00:00"
+    },
+    "8. Dijkstra Cut-Off & Community Isolation Analysis": {
+      "status": "SUCCESS",
+      "duration_seconds": 0.029,
+      "timestamp": "2026-10-12T05:15:06.965061+00:00"
+    },
+    "9. Cryptographic FactStore Assembly": {
+      "status": "SUCCESS",
+      "duration_seconds": 0.002,
+      "timestamp": "2026-10-12T05:15:06.967064+00:00"
+    },
+    "10. Bilingual Situation Report Generation (EN & NE)": {
+      "status": "SUCCESS",
+      "duration_seconds": 0.042,
+      "timestamp": "2026-10-12T05:15:07.009808+00:00"
+    }
+  },
+  "outputs": {
+    "s1_pre_vv": "outputs\\s1_data\\pre_01_VV_2026-08-16.tif",
+    "s1_post_vv": "outputs\\s1_data\\post_VV_2026-08-28.tif",
+    "dem_masks": {
+      "dem": "outputs\\dem\\dem.tif",
+      "slope": "outputs\\dem\\slope.tif",
+      "aspect": "outputs\\dem\\aspect.tif",
+      "lia": "outputs\\dem\\lia.tif",
+      "shadow": "outputs\\dem\\shadow.tif",
+      "layover": "outputs\\dem\\layover.tif",
+      "valid_sar": "outputs\\dem\\valid_sar.tif",
+      "slope_plausible": "outputs\\dem\\slope_plausible.tif"
+    },
+    "graph_edges": "outputs\\edges.geojson",
+    "graph_nodes": "outputs\\nodes.geojson",
+    "flood_polygons": "outputs\\flood\\flood_polygons.geojson",
+    "flood_stats": {
+      "total_valid_pixels": 2596708,
+      "flood_pixels": 79070,
+      "flood_fraction": 0.030450092963860396,
+      "flood_area_m2": 39589626.29670203,
+      "flood_area_km2": 39.58962629670203,
+      "num_polygons": 40
+    },
+    "damage_summary": {
+      "total_road_km": 65.16813057196053,
+      "affected_road_km": 46.884494393260574,
+      "not_affected_road_km": 18.283636178699968,
+      "not_assessable_road_km": 0.0,
+      "total_bridges": 4,
+      "severed_bridges": 1,
+      "flooded_buildings_count": 5,
+      "total_buildings": 120
+    },
+    "cutoff_summary": {
+      "timestamp": "2026-10-12T05:15:06.964061+00:00",
+      "total_nodes": 27,
+      "n_cutoff_nodes": 2,
+      "n_severely_delayed_nodes": 0,
+      "n_accessible_nodes": 25,
+      "n_cutoff_clusters": 1,
+      "total_cutoff_buildings": 0,
+      "clusters": [
+        {
+          "cluster_id": 1,
+          "name": "Settlement Cluster #1",
+          "n_buildings": 0,
+          "n_nodes": 2,
+          "suggested_response": "Heavy equipment road clearance required (Highway corridor blocked)"
+        }
+      ]
+    },
+    "fact_store": "outputs\\fact_store.json",
+    "sitreps": {
+      "sitrep_en": "outputs\\sitreps\\sitrep_en.md",
+      "sitrep_ne": "outputs\\sitreps\\sitrep_ne.md"
+    }
+  },
+  "provenance_hash": "ffe3d410463e2cbbec032590fc3929b9eee5df7a61f80e828923ab29220be6a9",
+  "status": "SUCCESS",
+  "total_duration_seconds": 19.48
+}
